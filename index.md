@@ -4,10 +4,6 @@ title: Home
 description: Personal website and project portfolio for Iramar Falcao.
 ---
 
-# Iramar Falcao
-
-I build software, explore technical ideas, and document the projects I am learning from.
-
 <div class="hero-panel">
   <p class="eyebrow">Portfolio / Blog</p>
   <p>A personal site for project notes, technical writing, resume details, and the work I want to keep visible.</p>
