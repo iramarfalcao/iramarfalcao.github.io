@@ -1,12 +1,12 @@
 # iramarfalcao.github.io
 
-Site pessoal em Jekyll publicado pelo GitHub Pages.
+Personal website, project portfolio, resume, and posts for Iramar Falcao, built with Jekyll and published with GitHub Pages.
 
-## Desenvolvimento local
+## Local development
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-O site ficará disponível em `http://localhost:4000`.
+The site will be available at `http://localhost:4000`.

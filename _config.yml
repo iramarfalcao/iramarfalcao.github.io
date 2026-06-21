@@ -1,8 +1,20 @@
-title: Iramar Junior
-description: Site pessoal feito com Jekyll
+title: Iramar Falcao
+description: Official personal website of Iramar Falcao, featuring software projects, resume information, and technical posts.
 url: "https://iramarfalcao.github.io"
 baseurl: ""
-lang: pt-BR
+lang: en
+permalink: /posts/:title/
+
+author:
+  name: Iramar Falcao
+  email: ""
+  github: "iramarfalcao"
+  linkedin: ""
+
+social:
+  name: Iramar Falcao
+  links:
+    - "https://github.com/iramarfalcao"
 
 exclude:
   - .bundle
