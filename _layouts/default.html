@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-  {% include head.html %}
+<!doctype html>
+<html lang="{{ site.lang | default: 'pt-BR' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
   <body>
-      {% include header.html %}
-      <!--<section id="about">-->
-        <!--{% include about.html %}-->
-      <!--</section>-->
-      <section id="projects">
-        {% include projects.html %}
-      </section>
-        <!--{{ content }}-->
-      {% include footer.html %}
+    <main class="page">
+      {{ content }}
+    </main>
   </body>
+</html>
