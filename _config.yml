@@ -1,5 +1,5 @@
 title: Iramar Falcao
-description: Official personal website of Iramar Falcao, featuring software projects, resume information, and technical posts.
+description: Iramar Falcao — software engineer building native apps for macOS, iOS, iPadOS and Android, the Rust services behind them, and the infrastructure that ships them. Founder of Falcao SL.
 url: "https://iramarfalcao.github.io"
 baseurl: ""
 lang: en
@@ -7,14 +7,16 @@ permalink: /posts/:title/
 
 author:
   name: Iramar Falcao
-  email: ""
+  email: "dev@falcaosl.com"
   github: "iramarfalcao"
-  linkedin: ""
+  linkedin: "https://www.linkedin.com/in/iramarfalcao/"
 
 social:
   name: Iramar Falcao
   links:
     - "https://github.com/iramarfalcao"
+    - "https://www.linkedin.com/in/iramarfalcao/"
+    - "https://falcaosl.com"
 
 exclude:
   - .bundle
