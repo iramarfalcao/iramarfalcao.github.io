@@ -44,28 +44,26 @@
         }
       }
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/falcon.svg' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
-  <body>
+  <body><a class="skip-link" href="#main">Pular para o conteúdo</a>
     <div class="site-shell">
       <header class="site-header">
         <div class="page-label" aria-label="Current page">
-          <span>{{ page.title | default: 'Home' }}</span>
+          <a class="personal-brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/falcon.svg' | relative_url }}" width="36" height="36" alt="">Iramar Falcão</a>
         </div>
 
         <div class="masthead">
           <nav class="site-nav" aria-label="Primary navigation">
-            <a href="{{ '/projects/' | relative_url }}">Projects</a>
-            <a href="{{ '/resume/' | relative_url }}">Resume</a>
-            <a href="{{ '/posts/' | relative_url }}">Posts</a>
+            <a href="{{ '/projects/' | relative_url }}">Projetos</a>
+            <a href="{{ '/resume/' | relative_url }}">Currículo</a>
+            <a href="{{ '/posts/' | relative_url }}">Artigos</a>
           </nav>
         </div>
       </header>
 
-      <main class="page">
+      <main class="page" id="main">
         {{ content }}
       </main>
 

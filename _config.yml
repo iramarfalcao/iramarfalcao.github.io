@@ -1,8 +1,8 @@
 title: Iramar Falcao
-description: Iramar Falcao — software engineer building native apps for macOS, iOS, iPadOS and Android, the Rust services behind them, and the infrastructure that ships them. Founder of Falcao SL.
+description: Iramar Falcão — Senior Software Engineer e fundador da Falcao SL. Sistemas financeiros, cloud e aplicativos próprios.
 url: "https://iramarfalcao.github.io"
 baseurl: ""
-lang: en
+lang: pt-BR
 permalink: /posts/:title/
 
 author:

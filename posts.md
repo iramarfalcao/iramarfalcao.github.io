@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Posts
-description: Posts and notes by Iramar Falcao.
+title: Artigos
+description: Artigos e notas de Iramar Falcão.
 permalink: /posts/
 ---
 
-# Posts
+# Artigos
 
-Notes about software, projects, tools, and the lessons behind the work.
+Notas sobre software, projetos, ferramentas e aprendizados do trabalho.
 
 <div class="post-list">
   {% for post in site.posts %}
@@ -17,6 +17,6 @@ Notes about software, projects, tools, and the lessons behind the work.
       <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
     </article>
   {% else %}
-    <p>No posts yet.</p>
+    <p>Ainda não há artigos.</p>
   {% endfor %}
 </div>
