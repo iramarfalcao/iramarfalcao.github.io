@@ -12,9 +12,9 @@ Aplicativos próprios, do conceito à publicação. Conheça os produtos no [por
 ## Publicados
 
 <div class="card-grid">
-<article class="card"><p class="eyebrow">macOS · Utilitário</p><h3>S-Clean</h3><p>Veja o que ocupa espaço no Mac e revise cada arquivo antes de movê-lo para a Lixeira. Limpeza e desinstalação, com o controle nas suas mãos.</p><a href="https://sclean.falcaosl.com">Conheça o aplicativo ↗</a></article>
-<article class="card"><p class="eyebrow">macOS · Ferramenta para developers</p><h3>HyperEnv</h3><p>Organize variáveis por projeto e ambiente. Alterne configurações e restaure os valores anteriores quando precisar.</p><a href="https://hyperenv.falcaosl.com">Conheça o aplicativo ↗</a></article>
-<article class="card"><p class="eyebrow">Android · iOS · Web</p><h3>BR Generator</h3><p>Gere e valide documentos brasileiros fictícios para testar seus sistemas. Trabalhe em lote, exporte e continue offline.</p><a href="https://brgenerator.falcaosl.com">Conheça o aplicativo ↗</a></article>
+<article class="card product-card sclean"><div class="product-image"><img src="{{ '/assets/products/sclean.png' | relative_url }}" alt="Interface do S-Clean" loading="lazy" width="1200" height="630"></div><p class="eyebrow">macOS · Utilitário</p><h3>S-Clean</h3><p>Veja o que ocupa espaço no Mac e revise cada arquivo antes de movê-lo para a Lixeira. Limpeza e desinstalação, com o controle nas suas mãos.</p><a href="https://sclean.falcaosl.com">Conheça o aplicativo ↗</a></article>
+<article class="card product-card hyperenv"><div class="product-image"><img src="{{ '/assets/products/hyperenv.png' | relative_url }}" alt="Interface do HyperEnv" loading="lazy" width="1280" height="800"></div><p class="eyebrow">macOS · Ferramenta para developers</p><h3>HyperEnv</h3><p>Organize variáveis por projeto e ambiente. Alterne configurações e restaure os valores anteriores quando precisar.</p><a href="https://hyperenv.falcaosl.com">Conheça o aplicativo ↗</a></article>
+<article class="card product-card brgenerator"><div class="product-image"><img src="{{ '/assets/products/brgenerator.jpg' | relative_url }}" alt="Interface do BR Generator" loading="lazy" width="720" height="1280"></div><p class="eyebrow">Web · Android em desenvolvimento</p><h3>BR Generator</h3><p>Gere e valide documentos brasileiros fictícios para testar seus sistemas. Trabalhe em lote, exporte e continue offline.</p><a href="https://brgenerator.falcaosl.com">Conheça o aplicativo ↗</a></article>
 </div>
 
 ## Em desenvolvimento
@@ -33,4 +33,4 @@ Aplicativos próprios, do conceito à publicação. Conheça os produtos no [por
 
 **[Homelab](https://github.com/iramarfalcao/homelab)** — infraestrutura como código com Terraform, Ansible, Docker, Proxmox e Cloudflare. Sustenta os sites e serviços dos produtos.
 
-**[MyBooks](https://github.com/iramarfalcao/MyBooks)** — catálogo e API de livros do Project Gutenberg, desenvolvido em Rust e usado pelo Quick Read.
+**[MyBooks](https://github.com/iramarfalcao/MyBooks)** — catálogo e API de livros do Project Gutenberg, desenvolvido em Rust.
