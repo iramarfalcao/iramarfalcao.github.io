@@ -11,7 +11,7 @@ TMP=$(mktemp -d)
 trap 'rm -rf "$TMP"' EXIT
 mkdir -p $OUT
 
-# Favicons e ícone da Apple: os mesmos da Falcao SL, fundo branco.
+# Favicons sem fundo e ícone da Apple opaco: os mesmos da Falcao SL.
 cp "$BRAND/icon-32.png" "$BRAND/icon-48.png" "$BRAND/apple-touch-icon.png" $OUT/
 
 # Falcão do cabeçalho: 36 px exibidos, 72 px em 2x.
