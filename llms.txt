@@ -28,7 +28,7 @@ Shipped products:
 - BR Generator (Brazilian test document generator) — https://brgenerator.falcaosl.com
 
 In development: Quick Read (RSVP ebook reader), Lira (language learning),
-MiniMLX (local LLMs on iPad), SwipeClean (photo cleanup), Infinity War (game),
+PocketRocket (local LLMs on iPad), SwipeClean (photo cleanup), Infinity War (game),
 Hortfrut (produce distribution management), MeuPosto (crowdsourced fuel prices).
 
 Core skills: Swift/SwiftUI, Kotlin Multiplatform, Compose Multiplatform, Rust

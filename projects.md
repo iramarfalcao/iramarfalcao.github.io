@@ -22,7 +22,7 @@ Aplicativos próprios, do conceito à publicação. Conheça os produtos no [por
 <div class="card-grid">
 <article class="card"><p class="eyebrow">Android / iOS · Em desenvolvimento</p><h3>Quick Read</h3><p>Leitura de ebooks, uma palavra por vez.</p><a href="https://quickread.falcaosl.com">Acompanhe o projeto ↗</a></article>
 <article class="card"><p class="eyebrow">Android / iOS · Em desenvolvimento</p><h3>Lira</h3><p>Idiomas, prática diária e repetição espaçada.</p><a href="https://lira.falcaosl.com">Acompanhe o projeto ↗</a></article>
-<article class="card"><p class="eyebrow">iPadOS · Em desenvolvimento</p><h3>MiniMLX</h3><p>Inteligência artificial no próprio iPad.</p><a href="https://minimlx.falcaosl.com">Acompanhe o projeto ↗</a></article>
+<article class="card"><p class="eyebrow">iPadOS · Em desenvolvimento</p><h3>PocketRocket</h3><p>Inteligência artificial no próprio iPad.</p><a href="https://pocketrocket.falcaosl.com">Acompanhe o projeto ↗</a></article>
 <article class="card"><p class="eyebrow">iOS · Em desenvolvimento</p><h3>SwipeClean</h3><p>Uma nova forma de organizar suas fotos.</p><a href="https://swipeclean.falcaosl.com">Acompanhe o projeto ↗</a></article>
 <article class="card"><p class="eyebrow">Android / iOS · Em desenvolvimento</p><h3>Infinity War</h3><p>Um toque. Uma nave. Mais uma tentativa.</p><a href="https://infinitywar.falcaosl.com">Acompanhe o projeto ↗</a></article>
 <article class="card"><p class="eyebrow">Web · Em desenvolvimento</p><h3>Hortfrut</h3><p>Da cotação à entrega do hortifrúti.</p><a href="https://hortfrut.falcaosl.com">Acompanhe o projeto ↗</a></article>
