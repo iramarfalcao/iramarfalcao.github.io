@@ -24,11 +24,14 @@ Primary identity:
 Shipped products:
 
 - S-Clean (macOS cleaner and uninstaller) — https://sclean.falcaosl.com
-- HyperEnv (macOS environment variable manager, MIT) — https://hyperenv.falcaosl.com
 - BR Generator (Brazilian test document generator) — https://brgenerator.falcaosl.com
 
+Pre-release: HyperEnv (environment variable manager for macOS, Windows and Linux, MIT) — https://hyperenv.falcaosl.com
+
+In App Review: SwipeClean (iPhone photo cleanup).
+
 In development: Quick Read (RSVP ebook reader), Lira (language learning),
-PocketRocket (local LLMs on iPad), SwipeClean (photo cleanup), Infinity War (game),
+PocketRocket (local LLMs on iPad), Infinity War (game),
 Hortfrut (produce distribution management), MeuPosto (crowdsourced fuel prices).
 
 Core skills: Swift/SwiftUI, Kotlin Multiplatform, Compose Multiplatform, Rust
