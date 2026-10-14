@@ -1,3 +1,5 @@
+> Atualização de 2026-10-14: o build local voltou a funcionar (Ruby 4.0.7 e Bundler 4.0.15) e o site foi redesenhado com a paleta da Falcao SL e em dois idiomas. As conferências visuais desta nota, feitas contra uma imagem de referência antiga, ficam superadas; a nova checagem foi feita no navegador (1440 px e 390 px, sem rolagem horizontal).
+
 **Findings**
 - [P0] Visual QA is blocked by the local Ruby/Bundler environment
   Location: local Jekyll preview.

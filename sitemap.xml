@@ -2,12 +2,18 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   {% for page in site.pages %}
-    {% unless page.url contains '/assets/' %}
+    {% unless page.url contains '/assets/' or page.name contains '.xml' or page.name contains '.txt' %}
+      {% if page.lang == "en" %}{% assign en_url = page.url %}{% assign pt_url = page.alt %}{% else %}{% assign pt_url = page.url %}{% assign en_url = page.alt %}{% endif %}
       <url>
         <loc>{{ page.url | absolute_url }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        {% if page.alt %}
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="{{ pt_url | absolute_url }}"/>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="{{ en_url | absolute_url }}"/>
+        {% endif %}
       </url>
     {% endunless %}
   {% endfor %}

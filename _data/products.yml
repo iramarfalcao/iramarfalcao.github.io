@@ -1,0 +1,43 @@
+# Produtos da Falcao SL. Estados conforme o docs/STATUS.md de cada repositório (2026-10).
+featured:
+  - key: sclean
+    name: S-Clean
+    url: https://sclean.falcaosl.com
+    image: /assets/products/sclean.png
+    size: [1200, 630]
+    alt: { en: S-Clean interface, pt: Interface do S-Clean }
+    kicker: { en: macOS · Utility, pt: macOS · Utilitário }
+    text:
+      en: See what fills your Mac's disk and review every file before it goes to the Trash. Cleaning and uninstalling, with the control in your hands.
+      pt: Veja o que ocupa espaço no Mac e revise cada arquivo antes de movê-lo para a Lixeira. Limpeza e desinstalação, com o controle nas suas mãos.
+  - key: hyperenv
+    name: HyperEnv
+    url: https://hyperenv.falcaosl.com
+    image: /assets/products/hyperenv.png
+    size: [1280, 800]
+    alt: { en: HyperEnv interface, pt: Interface do HyperEnv }
+    kicker: { en: "macOS, Windows and Linux · Pre-release", pt: "macOS, Windows e Linux · Pré-lançamento" }
+    text:
+      en: Environment variables organized by project. Switch profiles and restore the previous values when you need to. Open source, MIT.
+      pt: Variáveis de ambiente organizadas por projeto. Alterne perfis e restaure os valores anteriores quando precisar. Open source, MIT.
+  - key: brgenerator
+    name: BR Generator
+    url: https://brgenerator.falcaosl.com
+    image: /assets/products/brgenerator.jpg
+    size: [720, 1280]
+    alt: { en: BR Generator interface, pt: Interface do BR Generator }
+    kicker: { en: Web live · Android in closed testing, pt: Web no ar · Android em teste fechado }
+    text:
+      en: Generate and validate fictional Brazilian documents to test your systems. Work in batches, export and keep going offline.
+      pt: Gere e valide documentos brasileiros fictícios para testar seus sistemas. Trabalhe em lote, exporte e continue offline.
+studio:
+  - { name: Quick Read, url: "https://quickread.falcaosl.com", kicker: { en: Android / iOS · Internal beta, pt: Android / iOS · Beta interno }, text: { en: Ebook reading, one word at a time., pt: Leitura de ebooks, uma palavra por vez. } }
+  - { name: Lira, url: "https://lira.falcaosl.com", kicker: { en: Android / iOS · In development, pt: Android / iOS · Em desenvolvimento }, text: { en: Languages, daily practice and spaced repetition., pt: Idiomas, prática diária e repetição espaçada. } }
+  - { name: PocketRocket, url: "https://pocketrocket.falcaosl.com", kicker: { en: iPadOS · In development, pt: iPadOS · Em desenvolvimento }, text: { en: Artificial intelligence on the iPad itself., pt: Inteligência artificial no próprio iPad. } }
+  - { name: SwipeClean, url: "https://swipeclean.falcaosl.com", kicker: { en: iOS · In App Review, pt: iOS · Em revisão na App Store }, text: { en: A new way to organize your photos., pt: Uma nova forma de organizar suas fotos. } }
+  - { name: Infinity War, url: "https://infinitywar.falcaosl.com", kicker: { en: Android / iOS · In development, pt: Android / iOS · Em desenvolvimento }, text: { en: One tap. One ship. One more try., pt: Um toque. Uma nave. Mais uma tentativa. } }
+  - { name: Hortfrut, url: "https://hortfrut.falcaosl.com", kicker: { en: Web · In development, pt: Web · Em desenvolvimento }, text: { en: Produce distribution, from quote to delivery., pt: Da cotação à entrega do hortifrúti. } }
+  - { name: MeuPosto, url: "https://meuposto.falcaosl.com", kicker: { en: Android / iOS · In development, pt: Android / iOS · Em desenvolvimento }, text: { en: Fuel prices with community input., pt: Preços de combustível com participação da comunidade. } }
+infra:
+  - { name: Homelab, text: { en: Infrastructure as code with Terraform, Ansible, Docker, Proxmox and Cloudflare. It runs the products' sites and services., pt: Infraestrutura como código com Terraform, Ansible, Docker, Proxmox e Cloudflare. Sustenta os sites e serviços dos produtos. } }
+  - { name: MyBooks, text: { en: Project Gutenberg book catalog and API, built in Rust., pt: Catálogo e API de livros do Project Gutenberg, desenvolvido em Rust. } }

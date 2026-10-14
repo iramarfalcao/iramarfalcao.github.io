@@ -1,0 +1,235 @@
+# Currículo: fonte única, em inglês (en) e português (pt-BR → chave pt).
+# Conteúdo alinhado ao perfil do LinkedIn (nota do vault "LinkedIn - Perfil (EN)", 2026-10-11).
+# Opção 3 do perfil: DPlus/BTG e ACT/BEES ficam fora do público.
+
+name: Iramar Falcão
+legal_name: Francisco Iramar Falcão Junior
+location:
+  en: Fortaleza, Ceará, Brazil
+  pt: Fortaleza, Ceará, Brasil
+headline:
+  en: Senior Software Engineer | Backend, Platform & AI Engineering | Java · Kotlin · AWS · Kafka · RAG & AI Agents | Fintech & Investment Banking
+  pt: Senior Software Engineer | Backend, Plataforma e Engenharia de IA | Java · Kotlin · AWS · Kafka · RAG e Agentes de IA | Fintech e Banco de Investimentos
+about:
+  en:
+    - "I build backend systems for banks and large companies. Over the last 10 years that has meant an investment platform for BR Partners, a data product built from scratch for Itaú, a delivery system for Grupo Boticário and a public-safety data platform with billions of records for Brazil's Ministry of Justice."
+    - "Most of my work runs on the JVM (Java, Kotlin, Spring Boot, Quarkus), with Kafka and RabbitMQ between services and AWS, Docker and Kubernetes underneath. I've also done my share of data engineering (Spark, Airflow, Python), frontend (React, Angular) and native mobile."
+    - "Lately I've been putting AI to work inside the engineering process itself. At BR Partners I'm building an agentic system with RAG that helps plan tasks, write and maintain code, and review pull requests in CI. A workload that used to need five developers now takes three. Before that, at Itaú, I took the data science team's machine learning models to production."
+    - "I also run Falcao SL, a small studio where I ship native apps for macOS, iOS and Android, plus backend systems and AI automation, on infrastructure I manage as code."
+  pt:
+    - "Construo sistemas backend para bancos e grandes empresas. Nos últimos 10 anos, isso significou uma plataforma de investimentos para o BR Partners, um produto de dados criado do zero para o Itaú, um sistema de gestão de entregas para o Grupo Boticário e uma plataforma de dados de segurança pública com bilhões de registros para o Ministério da Justiça."
+    - "A maior parte do meu trabalho roda na JVM (Java, Kotlin, Spring Boot, Quarkus), com Kafka e RabbitMQ entre os serviços e AWS, Docker e Kubernetes por baixo. Também já fiz bastante engenharia de dados (Spark, Airflow, Python), frontend (React, Angular) e mobile nativo."
+    - "Ultimamente tenho colocado a IA para trabalhar dentro do próprio processo de engenharia. No BR Partners estou construindo um sistema agêntico com RAG que ajuda a planejar tarefas, escrever e manter código e revisar pull requests no CI. Uma demanda que antes precisava de cinco desenvolvedores hoje é atendida por três. Antes disso, no Itaú, levei para produção os modelos de machine learning do time de ciência de dados."
+    - "Também tenho a Falcao SL, um pequeno estúdio onde publico apps nativos para macOS, iOS e Android, além de sistemas backend e automações com IA, em infraestrutura que gerencio como código."
+
+experience:
+  - company: Falcao SL
+    url: https://falcaosl.com
+    role: { en: Founder & Software Engineer, pt: Fundador e Engenheiro de Software }
+    type: { en: Self-employed, pt: Autônomo }
+    period: { en: "Oct 2026 – Present", pt: "out/2026 – atual" }
+    place: { en: "Fortaleza, Brazil · Remote", pt: "Fortaleza, Brasil · Remoto" }
+    summary:
+      en: Independent software studio building apps, websites and systems, from concept to App Store release.
+      pt: Estúdio independente de software que cria aplicativos, sites e sistemas, do conceito à publicação nas lojas.
+    bullets:
+      en:
+        - "Native iOS/macOS apps in Swift/SwiftUI, Android in Kotlin/Jetpack Compose and Kotlin Multiplatform, with Rust backends."
+        - "Self-hosted infrastructure (Proxmox, ZFS) managed as code with Terraform and Ansible; CI/CD with GitHub Actions and Coolify; PostgreSQL, MongoDB, Redis, MinIO, Appwrite; observability and automated backups."
+        - "S-Clean: macOS cleanup app on the Mac App Store, localized into 16 languages."
+        - "HyperEnv: open-source (MIT) environment variable manager for macOS, Windows and Linux."
+        - "On-device AI: local LLM inference on Apple Silicon with MLX, on-device speech transcription and an AI language tutor."
+      pt:
+        - "Apps nativos para iOS e macOS em Swift/SwiftUI, Android em Kotlin/Jetpack Compose e Kotlin Multiplatform, com backends em Rust."
+        - "Infraestrutura própria (Proxmox, ZFS) gerenciada como código com Terraform e Ansible; CI/CD com GitHub Actions e Coolify; PostgreSQL, MongoDB, Redis, MinIO e Appwrite; observabilidade e backups automáticos."
+        - "S-Clean: app de limpeza para macOS na Mac App Store, traduzido para 16 idiomas."
+        - "HyperEnv: gerenciador open source (MIT) de variáveis de ambiente para macOS, Windows e Linux."
+        - "IA no dispositivo: inferência de LLM local em Apple Silicon com MLX, transcrição de voz no aparelho e um tutor de idiomas com IA."
+    skills: "Swift · SwiftUI · Kotlin Multiplatform · Rust · Terraform · Ansible · GitHub Actions"
+
+  - company: Sciensa
+    client: BR Partners
+    role: { en: Senior Software Engineer, pt: Engenheiro de Software Sênior }
+    type: { en: Full-time, pt: Tempo integral }
+    period: { en: "Feb 2023 – Present", pt: "fev/2023 – atual" }
+    place: { en: Remote, pt: Remoto }
+    summary:
+      en: Digital investment platform for BR Partners, a B3-listed investment bank serving high-net-worth clients.
+      pt: Plataforma digital de investimentos do BR Partners, banco de investimentos listado na B3 que atende clientes de alta renda.
+    bullets:
+      en:
+        - "Built account access, digital account opening and onboarding, investments and consolidated portfolio view."
+        - "Fixed-income and fund journeys: CDBs, LCIs, LCAs, debentures and investment funds; interbank integrations and fund management tools."
+        - "Contributed to the bank's KYC compliance tool."
+        - "Event-driven microservices in Java (11/17/21) with Quarkus, C#/.NET Core and Go, applying CQRS and Clean Architecture, with Kafka, RabbitMQ, MongoDB, PostgreSQL and Redis."
+        - "React/TypeScript micro-frontends in an Nx monorepo with a shared design system and 90% test coverage gates."
+        - "AWS (EKS, ECS, Lambda, API Gateway, Cognito, S3, RDS/Aurora, DynamoDB, SQS, SNS, CloudFormation) with Datadog observability."
+        - "Building a RAG-based agentic system on Hermes (Nous Research) for task planning, code generation, maintenance and code review: about 67% higher productivity per developer (the workload of 5 developers now handled by 3)."
+        - "Migrated CI/CD from Bitbucket to GitHub Actions with AI-driven code review (GitHub Copilot + Hermes agent) and static analysis."
+        - "Authored the platform's architecture and system documentation."
+      pt:
+        - "Acesso à conta, abertura de conta e onboarding digital, aplicações e posição consolidada."
+        - "Jornadas de renda fixa e fundos: CDB, LCI, LCA, debêntures e fundos de investimento; integrações interbancárias e ferramentas de gestão de fundos."
+        - "Participação na ferramenta de compliance cadastral (KYC) do banco."
+        - "Microsserviços event-driven em Java (11/17/21) com Quarkus, em C#/.NET Core e em Go, aplicando CQRS e Clean Architecture, com Kafka, RabbitMQ, MongoDB, PostgreSQL e Redis."
+        - "Micro-frontends em React e TypeScript num monorepo Nx, com design system compartilhado e gates de 90% de cobertura de testes."
+        - "AWS (EKS, ECS, Lambda, API Gateway, Cognito, S3, RDS/Aurora, DynamoDB, SQS, SNS, CloudFormation) com observabilidade no Datadog."
+        - "Construção de um sistema agêntico com RAG sobre o Hermes (Nous Research) para planejar tarefas, gerar e manter código e revisar código: cerca de 67% mais produtividade por desenvolvedor (a demanda de 5 devs passou a ser atendida por 3)."
+        - "Migração do CI/CD do Bitbucket para o GitHub Actions, com code review por IA (GitHub Copilot e agente Hermes) e análise estática."
+        - "Autoria da documentação de arquitetura e de sistema da plataforma."
+    skills: "Java · Quarkus · Go · C# · Kafka · AWS · RAG · AI Agents · CQRS"
+
+  - company: Zup Innovation
+    client: Itaú Unibanco
+    role: { en: Senior Software Engineer, pt: Engenheiro de Software Sênior }
+    type: { en: Full-time, pt: Tempo integral }
+    period: { en: "Apr 2021 – Dec 2022", pt: "abr/2021 – dez/2022" }
+    place: { en: Remote, pt: Remoto }
+    bullets:
+      en:
+        - "Built from scratch, from discovery to delivery, a data intelligence product for Itaú's business clients that profiled consumers from credit card and bank statement data, supporting marketing, logistics and new-store decisions."
+        - "Led a squad of 3 developers, from task breakdown to delivery and CI/CD."
+        - "Deployed and served machine learning models built by data scientists (MLOps) through Kotlin/Spring Boot microservices for an Angular frontend."
+        - "Data pipelines with Spark, Airflow and Kafka on a medallion-architecture data lake with data governance."
+        - "AWS: EKS, ECS, EC2, Lambda, Batch, API Gateway, S3, Glue, Athena, Redshift, RDS, DynamoDB, SQS, SNS, CloudFormation, CloudWatch."
+      pt:
+        - "Construção do zero, do discovery à entrega, de um produto de inteligência de dados para clientes PJ do Itaú, que traçava o perfil de consumidores a partir de dados de cartões e extratos e apoiava decisões de marketing, logística e abertura de unidades."
+        - "Liderança de uma squad de 3 desenvolvedores, da quebra de tarefas à entrega e ao CI/CD."
+        - "Deploy e serviço dos modelos de machine learning criados pelos cientistas de dados (MLOps), expostos por microsserviços em Kotlin com Spring Boot para o frontend em Angular."
+        - "Pipelines de dados com Spark, Airflow e Kafka em data lake de arquitetura medalhão, com governança de dados."
+        - "AWS: EKS, ECS, EC2, Lambda, Batch, API Gateway, S3, Glue, Athena, Redshift, RDS, DynamoDB, SQS, SNS, CloudFormation, CloudWatch."
+    skills: "Kotlin · Spring Boot · MLOps · Apache Spark · Airflow · AWS"
+
+  - company: CI&T
+    client: Grupo Boticário
+    role: { en: Software Engineer, pt: Engenheiro de Software }
+    type: { en: Full-time, pt: Tempo integral }
+    period: { en: "Nov 2020 – Apr 2021", pt: "nov/2020 – abr/2021" }
+    place: { en: Remote, pt: Remoto }
+    bullets:
+      en:
+        - "Hired as a Kotlin specialist to build Grupo Boticário's new delivery management system for stores and franchisees, based on SAP data (SOAP)."
+        - "Migrated microservices from Java to Kotlin; Spring Boot services that were stateless and horizontally scalable on AWS with Docker and Kubernetes."
+        - "Async messaging with RabbitMQ and AWS SQS, Redis caching, OpenTelemetry/Prometheus/Grafana observability, 90% unit test coverage."
+      pt:
+        - "Contratado como especialista em Kotlin para construir o novo sistema de gestão de entregas do Grupo Boticário para lojas e franqueados, a partir de dados do SAP (SOAP)."
+        - "Migração de microsserviços de Java para Kotlin; serviços Spring Boot stateless e escaláveis horizontalmente na AWS, com Docker e Kubernetes."
+        - "Mensageria assíncrona com RabbitMQ e AWS SQS, cache com Redis, observabilidade com OpenTelemetry, Prometheus e Grafana e 90% de cobertura de testes unitários."
+    skills: "Kotlin · Spring Boot · RabbitMQ · AWS SQS · Redis"
+
+  - company: Insight Data Science Lab
+    client: { en: Federal University of Ceará, pt: Universidade Federal do Ceará }
+    role: { en: Software Engineer / DevOps, pt: Engenheiro de Software / DevOps }
+    type: { en: Full-time, pt: Tempo integral }
+    period: { en: "Feb 2020 – Nov 2020", pt: "fev/2020 – nov/2020" }
+    place: { en: "Fortaleza, Brazil", pt: "Fortaleza, Brasil" }
+    bullets:
+      en:
+        - "Sinesp Big Data & AI for Public Security, with Brazil's Ministry of Justice: data ingestion microservices from 5 government agencies into a multi-terabyte data lake with billions of records."
+        - "Deployed the backend of a police mobile app for criminal record, vehicle plate and ID checks: peaks of 70–100 concurrent queries, capacity validated at 3x on a single instance."
+        - "Scala and Kafka modules; load tests with Gatling; infrastructure automation with Terraform and Ansible; Kubernetes and OpenShift."
+      pt:
+        - "Sinesp Big Data e Inteligência Artificial para Segurança Pública, com o Ministério da Justiça: microsserviços de ingestão de dados de 5 órgãos públicos para um data lake com terabytes e bilhões de registros."
+        - "Backend do aplicativo usado pelas polícias para consultar antecedentes, placas e CPF: picos de 70 a 100 consultas simultâneas, com capacidade validada para 3x em uma única instância."
+        - "Módulos em Scala e Kafka; testes de carga com Gatling; automação de infraestrutura com Terraform e Ansible; Kubernetes e OpenShift."
+    skills: "Scala · Kafka · Kubernetes · OpenShift · Terraform · Ansible"
+
+  - company: { en: University of Fortaleza (UNIFOR), pt: Universidade de Fortaleza (UNIFOR) }
+    role: { en: Software Engineer, pt: Engenheiro de Software }
+    type: { en: Full-time, pt: Tempo integral }
+    period: { en: "Nov 2018 – Feb 2020", pt: "nov/2018 – fev/2020" }
+    place: { en: "Fortaleza, Brazil", pt: "Fortaleza, Brasil" }
+    bullets:
+      en:
+        - "Kicked off the migration of the academic ERP (Java monolith + Oracle PL/SQL) to Spring microservices on Oracle Cloud, with Jenkins and Docker; delivered the first migrated module (library back office)."
+        - "Introduced observability with New Relic; Redis (cache, Pub/Sub) and Elasticsearch."
+        - "Technical lead for ~20 mobile development interns on the student app (Android/Kotlin, iOS/Swift)."
+        - "Rolled out the university's first online learning platform (Moodle)."
+      pt:
+        - "Início da migração do ERP acadêmico (monólito Java com PL/SQL no Oracle) para microsserviços Spring na Oracle Cloud, com Jenkins e Docker; entrega do primeiro módulo migrado (back-office da biblioteca)."
+        - "Introdução da observabilidade com New Relic; Redis (cache e Pub/Sub) e Elasticsearch."
+        - "Liderança técnica de cerca de 20 estagiários de desenvolvimento mobile no app do aluno (Android/Kotlin e iOS/Swift)."
+        - "Implantação da primeira plataforma de ensino online da universidade (Moodle)."
+    skills: "Java · Spring · Oracle · Android · iOS · Technical Leadership"
+
+  - company: Sistema FIEC
+    client: SESI / IEL
+    role: { en: Software Engineer, pt: Engenheiro de Software }
+    type: { en: Full-time, pt: Tempo integral }
+    period: { en: "Oct 2017 – Nov 2018", pt: "out/2017 – nov/2018" }
+    place: { en: "Fortaleza, Brazil", pt: "Fortaleza, Brasil" }
+    bullets:
+      en:
+        - "Launched an online course e-commerce platform (~200 enrollments in the first month)."
+        - "Built an Ionic app for medical appointments that came to handle 40% of recurring appointments."
+        - "Introduced Power BI dashboards for growth and budget tracking."
+      pt:
+        - "Implantação de uma plataforma de e-commerce de cursos online (cerca de 200 inscrições no primeiro mês)."
+        - "Aplicativo em Ionic para agendamento de consultas médicas, que passou a concentrar 40% dos atendimentos recorrentes."
+        - "Introdução de dashboards em Power BI para acompanhar crescimento e orçamento."
+    skills: "PHP · Ionic · SQL Server · Power BI"
+
+  - company: MetroService
+    client: METROFOR (Metrô de Fortaleza)
+    role: { en: Software Engineer, pt: Engenheiro de Software }
+    type: { en: Full-time, pt: Tempo integral }
+    period: { en: "Aug 2016 – Oct 2017", pt: "ago/2016 – out/2017" }
+    place: { en: "Fortaleza, Brazil", pt: "Fortaleza, Brasil" }
+    bullets:
+      en:
+        - "Built, in a team of 4, SIMG, the web-based maintenance management system of the Fortaleza Metro and light rail, replacing a legacy desktop system."
+        - "Work orders for rolling stock, track, overhead catenary and stations, plus spare-parts inventory, with KPI dashboards."
+        - "Contributed to cost reductions of up to BRL 700K per month and a 37% drop in failures."
+      pt:
+        - "Construção, em equipe de 4 pessoas, do SIMG, sistema web de gestão da manutenção do Metrô e do VLT de Fortaleza, no lugar de um sistema desktop legado."
+        - "Ordens de serviço do material rodante, da via permanente, da rede aérea e das estações, mais controle de estoque de peças, com dashboards de indicadores."
+        - "Contribuição para reduções de custo de até R$ 700 mil por mês e queda de 37% nas falhas."
+    skills: "PHP · Laravel · PostgreSQL"
+
+  - company: RCosta Consultoria
+    role: { en: ERP & Web Developer, pt: Desenvolvedor ERP e Web }
+    type: { en: Full-time, pt: Tempo integral }
+    period: { en: "May 2015 – Jul 2016", pt: "mai/2015 – jul/2016" }
+    place: { en: "Fortaleza, Brazil", pt: "Fortaleza, Brasil" }
+    bullets:
+      en:
+        - "Supported and customized TOTVS Protheus ERP (ADVPL) for ~10 client companies across Finance, Billing, Inventory, Procurement, HR and Tax."
+        - "Custom reports and SQL across SQL Server, Oracle (PL/SQL), PostgreSQL and MySQL; freelance websites and e-commerce."
+      pt:
+        - "Suporte e customização do ERP TOTVS Protheus (ADVPL) para cerca de 10 empresas clientes, nos módulos Financeiro, Faturamento, Estoque, Compras, RH e Fiscal."
+        - "Relatórios e consultas SQL em SQL Server, Oracle (PL/SQL), PostgreSQL e MySQL; sites e lojas virtuais como freelancer."
+    skills: "ADVPL · TOTVS Protheus · SQL"
+
+education:
+  - school: UNI7 – Centro Universitário 7 de Setembro
+    degree: { en: Postgraduate Specialization, Internet Systems Architecture, pt: Especialização em Arquitetura de Sistemas para Internet }
+    period: "2017 – 2018"
+  - school: Estácio
+    degree: { en: Technologist Degree, Systems Analysis and Development, pt: Graduação tecnológica em Análise e Desenvolvimento de Sistemas }
+    period: "2014 – 2016"
+
+skills:
+  top:
+    - Java
+    - Kotlin
+    - Amazon Web Services (AWS)
+    - Apache Kafka
+    - Retrieval-Augmented Generation (RAG)
+  groups:
+    - label: { en: Backend and architecture, pt: Backend e arquitetura }
+      items: "Spring Boot · Quarkus · Microservices · Event-Driven Architecture · CQRS · Clean Architecture · Go · C# · .NET Core · Python · Rust · System Design"
+    - label: { en: Cloud and DevOps, pt: Cloud e DevOps }
+      items: "Docker · Kubernetes · OpenShift · Terraform · Ansible · GitHub Actions · CI/CD · Datadog · OpenTelemetry · Prometheus · Grafana · New Relic"
+    - label: { en: Data and storage, pt: Dados e armazenamento }
+      items: "PostgreSQL · MongoDB · Cassandra · Redis · Oracle Database · Elasticsearch · RabbitMQ · Apache Spark · Apache Airflow · ETL"
+    - label: { en: Frontend and mobile, pt: Frontend e mobile }
+      items: "TypeScript · React · Angular · Swift · SwiftUI · Kotlin Multiplatform"
+    - label: { en: AI, pt: IA }
+      items: "AI Agents · Large Language Models (LLM) · MLOps · Machine Learning · Retrieval-Augmented Generation (RAG)"
+    - label: { en: Domain, pt: Domínio }
+      items: "Financial Services · Investment Banking · Trading Systems · FIX Protocol · KYC · Technical Leadership · Technical Documentation"
+
+languages:
+  - { name: { en: Portuguese, pt: Português }, level: { en: Native or bilingual proficiency, pt: Nativo ou bilíngue } }
+  - { name: { en: English, pt: Inglês }, level: { en: Professional working proficiency, pt: Proficiência profissional } }
+  - { name: { en: French, pt: Francês }, level: { en: Elementary proficiency, pt: Básico } }

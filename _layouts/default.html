@@ -1,71 +1,92 @@
+{%- assign l = page.lang | default: site.lang | slice: 0, 2 -%}
+{%- assign t = site.data.i18n[l] -%}
+{%- assign shot = '/assets/brand/social.png' | absolute_url -%}
+{%- if page.alt -%}
+  {%- if l == "pt" -%}{%- assign pt_url = page.url -%}{%- assign en_url = page.alt -%}{%- else -%}{%- assign en_url = page.url -%}{%- assign pt_url = page.alt -%}{%- endif -%}
+{%- endif -%}
+{%- assign desc = page.description | default: site.description -%}
 <!doctype html>
-<html lang="{{ site.lang | default: 'en' }}">
+<html lang="{% if l == 'pt' %}pt-BR{% else %}en{% endif %}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="description" content="{{ desc }}">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <link rel="canonical" href="{{ page.url | absolute_url }}">
-    <meta name="author" content="{{ site.author.name | default: site.title }}">
-    <meta name="creator" content="{{ site.author.name | default: site.title }}">
-    <meta name="application-name" content="{{ site.title }}">
-    <meta name="robots" content="index, follow">
+    {%- if page.alt %}
+    <link rel="alternate" hreflang="pt-BR" href="{{ pt_url | absolute_url }}">
+    <link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ en_url | absolute_url }}">
+    {%- endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#262A2F">
     <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
-    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:description" content="{{ desc }}">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:image" content="{{ '/assets/brand/social.png' | absolute_url }}">
+    <meta property="og:locale" content="{% if l == 'pt' %}pt_BR{% else %}en_US{% endif %}">
+    <meta property="og:locale:alternate" content="{% if l == 'pt' %}en_US{% else %}pt_BR{% endif %}">
+    <meta property="og:image" content="{{ shot }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Iramar Falcão · Falcao SL">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ '/assets/brand/social.png' | absolute_url }}">
+    <meta name="twitter:image" content="{{ shot }}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
-    <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+    <meta name="twitter:description" content="{{ desc }}">
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "{{ site.author.name | default: site.title }}",
-        "url": "{{ '/' | absolute_url }}",
-        "sameAs": [
-          "https://github.com/{{ site.author.github }}"
-        ],
-        "description": "{{ site.description }}"
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "{{ site.title }}",
-        "url": "{{ '/' | absolute_url }}",
-        "description": "{{ site.description }}",
-        "publisher": {
-          "@type": "Person",
-          "name": "{{ site.author.name | default: site.title }}"
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person", "@id": "{{ '/#person' | absolute_url }}",
+          "name": "Iramar Falcão",
+          "alternateName": "Francisco Iramar Falcão Junior",
+          "url": "{{ '/' | absolute_url }}",
+          "image": "{{ '/assets/brand/falcon-480.png' | absolute_url }}",
+          "jobTitle": "Senior Software Engineer",
+          "description": "{{ site.description | escape }}",
+          "address": { "@type": "PostalAddress", "addressLocality": "Fortaleza", "addressRegion": "CE", "addressCountry": "BR" },
+          "knowsLanguage": ["pt-BR", "en", "fr"],
+          "worksFor": { "@id": "https://falcaosl.com/#org" },
+          "sameAs": ["https://github.com/{{ site.author.github }}", "{{ site.author.linkedin }}", "https://falcaosl.com"]
+        },
+        {
+          "@type": "Organization", "@id": "https://falcaosl.com/#org",
+          "name": "Falcao SL", "url": "https://falcaosl.com/",
+          "logo": "{{ '/assets/brand/falcon-480.png' | absolute_url }}",
+          "founder": { "@id": "{{ '/#person' | absolute_url }}" }
+        },
+        {
+          "@type": "WebSite", "@id": "{{ '/#site' | absolute_url }}",
+          "name": "{{ site.title }}", "url": "{{ '/' | absolute_url }}",
+          "inLanguage": ["pt-BR", "en"],
+          "publisher": { "@id": "{{ '/#person' | absolute_url }}" }
         }
-      }
+      ]
+    }
     </script>
     <link rel="icon" href="{{ '/assets/brand/icon-32.png' | relative_url }}" sizes="32x32" type="image/png">
     <link rel="icon" href="{{ '/assets/brand/icon-48.png' | relative_url }}" sizes="48x48" type="image/png">
     <link rel="apple-touch-icon" href="{{ '/assets/brand/apple-touch-icon.png' | relative_url }}" sizes="180x180">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=10">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=11">
   </head>
-  <body><a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <body><a class="skip-link" href="#main">{{ t.skip }}</a>
     <div class="site-shell">
       <header class="site-header">
-        <div class="page-label" aria-label="Current page">
-          <a class="personal-brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/brand/falcon-72.png' | relative_url }}" width="36" height="36" alt="">Iramar Falcão</a>
-        </div>
-
+        <a class="personal-brand" href="{{ t.home.path | relative_url }}"><img src="{{ '/assets/brand/falcon-72.png' | relative_url }}" width="36" height="36" alt="">Iramar Falcão</a>
         <div class="masthead">
-          <nav class="site-nav" aria-label="Primary navigation">
-            <a href="{{ '/projects/' | relative_url }}">Projetos</a>
-            <a href="{{ '/resume/' | relative_url }}">Currículo</a>
-            <a href="{{ '/posts/' | relative_url }}">Artigos</a>
+          <nav class="site-nav" aria-label="{% if l == 'pt' %}Navegação principal{% else %}Primary navigation{% endif %}">
+            <a href="{{ t.home.projects | relative_url }}">{{ t.nav.projects }}</a>
+            <a href="{{ t.home.resume | relative_url }}">{{ t.nav.resume }}</a>
+            <a href="{{ t.home.posts | relative_url }}">{{ t.nav.posts }}</a>
           </nav>
+          {%- if page.alt %}
+          <a class="lang-switch" href="{{ page.alt | relative_url }}" hreflang="{% if l == 'pt' %}en{% else %}pt-BR{% endif %}" lang="{% if l == 'pt' %}en{% else %}pt-BR{% endif %}" aria-label="{{ t.lang_switch_label }}">{% if l == 'pt' %}EN{% else %}PT{% endif %}</a>
+          {%- endif %}
         </div>
       </header>
 
@@ -74,18 +95,15 @@
       </main>
 
       <footer class="site-footer">
-        <div>
-          <p class="footer-name">{{ site.title }}</p>
-          <p>&copy; {{ 'now' | date: '%Y' }} / Built with Jekyll</p>
+        <div class="footer-brand">
+          <a href="https://falcaosl.com" aria-label="Falcao SL"><img src="{{ '/assets/brand/falcaosl-horizontal-on-light-web.png' | relative_url }}" width="140" height="60" alt="Falcao SL" loading="lazy"></a>
+          <p>&copy; {{ 'now' | date: '%Y' }} Iramar Falcão · {{ t.built }}</p>
         </div>
-        <nav class="social-nav" aria-label="Social links">
+        <nav class="social-nav" aria-label="{% if l == 'pt' %}Links sociais{% else %}Social links{% endif %}">
           <a href="https://github.com/{{ site.author.github }}" rel="me">GitHub</a>
-          {% if site.author.linkedin != "" %}
-            <a href="{{ site.author.linkedin }}" rel="me">LinkedIn</a>
-          {% endif %}
-          {% if site.author.email != "" %}
-            <a href="mailto:{{ site.author.email }}">Email</a>
-          {% endif %}
+          <a href="{{ site.author.linkedin }}" rel="me">LinkedIn</a>
+          <a href="https://falcaosl.com" rel="me">Falcao SL</a>
+          <a href="mailto:{{ site.author.email }}">{{ t.email }}</a>
         </nav>
       </footer>
     </div>

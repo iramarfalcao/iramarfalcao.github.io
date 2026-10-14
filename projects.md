@@ -1,5 +1,7 @@
 ---
 layout: default
+lang: pt-BR
+alt: /en/projects/
 title: Projetos
 description: Aplicativos e projetos de Iramar Falcão, fundador da Falcao SL.
 permalink: /projects/
@@ -11,26 +13,14 @@ Aplicativos próprios, do conceito à publicação. Conheça os produtos no [por
 
 ## Em destaque
 
-<div class="card-grid">
-<article class="card product-card sclean"><div class="product-image"><img src="{{ '/assets/products/sclean.png' | relative_url }}" alt="Interface do S-Clean" loading="lazy" width="1200" height="630"></div><p class="eyebrow">macOS · Utilitário</p><h3>S-Clean</h3><p>Veja o que ocupa espaço no Mac e revise cada arquivo antes de movê-lo para a Lixeira. Limpeza e desinstalação, com o controle nas suas mãos.</p><a href="https://sclean.falcaosl.com">Conheça o aplicativo ↗</a></article>
-<article class="card product-card hyperenv"><div class="product-image"><img src="{{ '/assets/products/hyperenv.png' | relative_url }}" alt="Interface do HyperEnv" loading="lazy" width="1280" height="800"></div><p class="eyebrow">macOS, Windows e Linux · Pré-lançamento</p><h3>HyperEnv</h3><p>Organize variáveis por projeto e ambiente. Alterne configurações e restaure os valores anteriores quando precisar.</p><a href="https://hyperenv.falcaosl.com">Conheça o aplicativo ↗</a></article>
-<article class="card product-card brgenerator"><div class="product-image"><img src="{{ '/assets/products/brgenerator.jpg' | relative_url }}" alt="Interface do BR Generator" loading="lazy" width="720" height="1280"></div><p class="eyebrow">Web no ar · Android em teste fechado</p><h3>BR Generator</h3><p>Gere e valide documentos brasileiros fictícios para testar seus sistemas. Trabalhe em lote, exporte e continue offline.</p><a href="https://brgenerator.falcaosl.com">Conheça o aplicativo ↗</a></article>
-</div>
+{% include product-cards.html kind="featured" l="pt" %}
 
 ## Em desenvolvimento
 
-<div class="card-grid">
-<article class="card"><p class="eyebrow">Android / iOS · Beta interno</p><h3>Quick Read</h3><p>Leitura de ebooks, uma palavra por vez.</p><a href="https://quickread.falcaosl.com">Acompanhe o projeto ↗</a></article>
-<article class="card"><p class="eyebrow">Android / iOS · Em desenvolvimento</p><h3>Lira</h3><p>Idiomas, prática diária e repetição espaçada.</p><a href="https://lira.falcaosl.com">Acompanhe o projeto ↗</a></article>
-<article class="card"><p class="eyebrow">iPadOS · Em desenvolvimento</p><h3>PocketRocket</h3><p>Inteligência artificial no próprio iPad.</p><a href="https://pocketrocket.falcaosl.com">Acompanhe o projeto ↗</a></article>
-<article class="card"><p class="eyebrow">iOS · Em revisão na App Store</p><h3>SwipeClean</h3><p>Uma nova forma de organizar suas fotos.</p><a href="https://swipeclean.falcaosl.com">Acompanhe o projeto ↗</a></article>
-<article class="card"><p class="eyebrow">Android / iOS · Em desenvolvimento</p><h3>Infinity War</h3><p>Um toque. Uma nave. Mais uma tentativa.</p><a href="https://infinitywar.falcaosl.com">Acompanhe o projeto ↗</a></article>
-<article class="card"><p class="eyebrow">Web · Em desenvolvimento</p><h3>Hortfrut</h3><p>Da cotação à entrega do hortifrúti.</p><a href="https://hortfrut.falcaosl.com">Acompanhe o projeto ↗</a></article>
-<article class="card"><p class="eyebrow">Android / iOS · Em desenvolvimento</p><h3>MeuPosto</h3><p>Preços de combustível com participação da comunidade.</p><a href="https://meuposto.falcaosl.com">Acompanhe o projeto ↗</a></article>
-</div>
+{% include product-cards.html kind="studio" l="pt" %}
 
 ## Infraestrutura e serviços
 
-**Homelab** — infraestrutura como código com Terraform, Ansible, Docker, Proxmox e Cloudflare. Sustenta os sites e serviços dos produtos.
+{% for p in site.data.products.infra %}**{{ p.name }}**: {{ p.text.pt }}
 
-**MyBooks** — catálogo e API de livros do Project Gutenberg, desenvolvido em Rust.
+{% endfor %}

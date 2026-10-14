@@ -1,0 +1,13 @@
+{%- assign l = include.l -%}
+{%- assign t = site.data.i18n[l] -%}
+<div class="card-grid">
+{%- if include.kind == "featured" -%}
+{%- for p in site.data.products.featured %}
+<article class="card product-card {{ p.key }}"><div class="product-image"><img src="{{ p.image | relative_url }}" alt="{{ p.alt[l] }}" loading="lazy" width="{{ p.size[0] }}" height="{{ p.size[1] }}"></div><p class="eyebrow">{{ p.kicker[l] }}</p><h3>{{ p.name }}</h3><p>{{ p.text[l] }}</p><a href="{{ p.url }}">{{ t.learn_more }} ↗</a></article>
+{%- endfor -%}
+{%- else -%}
+{%- for p in site.data.products.studio %}
+<article class="card"><p class="eyebrow">{{ p.kicker[l] }}</p><h3>{{ p.name }}</h3><p>{{ p.text[l] }}</p><a href="{{ p.url }}">{{ t.follow }} ↗</a></article>
+{%- endfor -%}
+{%- endif %}
+</div>

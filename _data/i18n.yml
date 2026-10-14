@@ -1,0 +1,22 @@
+en:
+  skip: Skip to content
+  nav: { projects: Projects, resume: Resume, posts: Articles }
+  lang_switch: Português
+  lang_switch_label: Versão em português
+  built: Built with Jekyll
+  email: Email
+  learn_more: Learn more
+  follow: Follow the project
+  print: Print / Save as PDF
+  home: { path: /en/, projects: /en/projects/, resume: /en/resume/, posts: /en/posts/ }
+pt:
+  skip: Pular para o conteúdo
+  nav: { projects: Projetos, resume: Currículo, posts: Artigos }
+  lang_switch: English
+  lang_switch_label: English version
+  built: Feito com Jekyll
+  email: E-mail
+  learn_more: Conheça o aplicativo
+  follow: Acompanhe o projeto
+  print: Imprimir / Salvar PDF
+  home: { path: /, projects: /projects/, resume: /resume/, posts: /posts/ }

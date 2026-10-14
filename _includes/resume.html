@@ -1,0 +1,63 @@
+{%- assign l = include.l -%}
+{%- assign r = site.data.resume -%}
+{%- assign t = site.data.i18n[l] -%}
+<header class="resume-head">
+<p class="eyebrow">{{ r.location[l] }}</p>
+<h1>{{ r.name }}</h1>
+<p class="resume-subtitle">{{ r.headline[l] }}</p>
+<p class="resume-links"><a href="mailto:dev@falcaosl.com">dev@falcaosl.com</a> · <a href="https://www.linkedin.com/in/iramarfalcao/" rel="me">LinkedIn</a> · <a href="https://github.com/iramarfalcao" rel="me">GitHub</a> · <a href="https://falcaosl.com" rel="me">falcaosl.com</a></p>
+<button class="button print-button" type="button" onclick="window.print()">{{ t.print }}</button>
+</header>
+
+<section class="resume-about" aria-labelledby="about-h">
+<h2 id="about-h">{% if l == "pt" %}Sobre{% else %}About{% endif %}</h2>
+{%- for para in r.about[l] %}
+<p>{{ para }}</p>
+{%- endfor %}
+</section>
+
+<section aria-labelledby="exp-h">
+<h2 id="exp-h">{% if l == "pt" %}Experiência profissional{% else %}Experience{% endif %}</h2>
+{%- for e in r.experience %}
+{%- assign company = e.company -%}{%- if company.en -%}{%- assign company = company[l] -%}{%- endif -%}
+{%- assign client = e.client -%}{%- if client.en -%}{%- assign client = client[l] -%}{%- endif %}
+<article class="career-item">
+<p class="eyebrow">{{ e.period[l] }}<br><span class="place">{{ e.place[l] }}</span></p>
+<div>
+<h3>{% if e.url %}<a href="{{ e.url }}">{{ company }}</a>{% else %}{{ company }}{% endif %}{% if client %} <span class="client">· {{ client }}</span>{% endif %}</h3>
+<p class="role">{{ e.role[l] }} <span class="type">· {{ e.type[l] }}</span></p>
+{%- if e.summary %}<p>{{ e.summary[l] }}</p>{% endif %}
+<ul class="bullets">
+{%- for b in e.bullets[l] %}<li>{{ b }}</li>{%- endfor %}
+</ul>
+{%- if e.skills %}<p class="stack">{{ e.skills }}</p>{% endif %}
+</div>
+</article>
+{%- endfor %}
+</section>
+
+<section aria-labelledby="skills-h">
+<h2 id="skills-h">{% if l == "pt" %}Competências{% else %}Skills{% endif %}</h2>
+<p class="stack top-skills"><strong>{% if l == "pt" %}Principais{% else %}Top skills{% endif %}:</strong> {{ r.skills.top | join: " · " }}</p>
+<ul class="skill-groups">
+{%- for g in r.skills.groups %}
+<li><strong>{{ g.label[l] }}:</strong> {{ g.items }}</li>
+{%- endfor %}
+</ul>
+</section>
+
+<section aria-labelledby="edu-h">
+<h2 id="edu-h">{% if l == "pt" %}Formação{% else %}Education{% endif %}</h2>
+{%- for ed in r.education %}
+<p class="edu"><strong>{{ ed.school }}</strong><br>{{ ed.degree[l] }} · {{ ed.period }}</p>
+{%- endfor %}
+</section>
+
+<section aria-labelledby="lang-h">
+<h2 id="lang-h">{% if l == "pt" %}Idiomas{% else %}Languages{% endif %}</h2>
+<ul class="skill-groups">
+{%- for lg in r.languages %}
+<li><strong>{{ lg.name[l] }}:</strong> {{ lg.level[l] }}</li>
+{%- endfor %}
+</ul>
+</section>
