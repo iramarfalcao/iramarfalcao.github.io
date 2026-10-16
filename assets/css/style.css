@@ -69,6 +69,8 @@ p { color: var(--ink-soft); }
 
 /* Cartões */
 .card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+/* Dois apps em destaque: duas colunas, para a grade não ficar com a terceira vazia. */
+.card-grid-featured { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .card { min-width: 0; padding: 28px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--soft); transition: transform .2s, border-color .2s; }
 .card:hover { transform: translateY(-4px); border-color: #b9c4cf; }
 .card p { font-size: .95rem; }
@@ -80,8 +82,6 @@ p { color: var(--ink-soft); }
 .product-image { margin: -28px -28px 20px; padding: 22px 14px 0; height: 190px; overflow: hidden; background: #e6ebf0; display: flex; justify-content: center; align-items: flex-start; }
 .product-image img { width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 12px 25px rgba(38, 42, 47, .22); transition: transform .4s; }
 .product-card:hover .product-image img { transform: translateY(-6px); }
-.product-card.brgenerator .product-image { background: #e3ecf4; }
-.product-card.brgenerator .product-image img { width: 120px; transform: rotate(6deg); }
 .card-motion { animation: enter .65s ease-out both; }
 
 /* Currículo */
@@ -142,7 +142,6 @@ td, th { padding: 12px; border: 1px solid var(--line); }
   .career-item { grid-template-columns: 1fr; gap: 6px; }
   .product-image { height: 230px; }
   .product-image img { max-width: 460px; }
-  .product-card.brgenerator .product-image img { width: 145px; }
   .site-footer { flex-direction: column; align-items: flex-start; }
   h2 { font-size: 1.7rem; margin-top: 56px; }
   table { display: block; overflow-x: auto; }

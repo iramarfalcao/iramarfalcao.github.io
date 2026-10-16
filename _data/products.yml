@@ -20,16 +20,6 @@ featured:
     text:
       en: Environment variables organized by project. Switch profiles and restore the previous values when you need to. Open source, MIT.
       pt: Variáveis de ambiente organizadas por projeto. Alterne perfis e restaure os valores anteriores quando precisar. Open source, MIT.
-  - key: brgenerator
-    name: BR Generator
-    url: https://brgenerator.falcaosl.com
-    image: /assets/products/brgenerator.jpg
-    size: [720, 1280]
-    alt: { en: BR Generator interface, pt: Interface do BR Generator }
-    kicker: { en: Web live · Android in closed testing, pt: Web no ar · Android em teste fechado }
-    text:
-      en: Generate and validate fictional Brazilian documents to test your systems. Work in batches, export and keep going offline.
-      pt: Gere e valide documentos brasileiros fictícios para testar seus sistemas. Trabalhe em lote, exporte e continue offline.
 studio:
   - { name: Quick Read, url: "https://quickread.falcaosl.com", kicker: { en: Android / iOS · Internal beta, pt: Android / iOS · Beta interno }, text: { en: Ebook reading, one word at a time., pt: Leitura de ebooks, uma palavra por vez. } }
   - { name: Lira, url: "https://lira.falcaosl.com", kicker: { en: Android / iOS · In development, pt: Android / iOS · Em desenvolvimento }, text: { en: Languages, daily practice and spaced repetition., pt: Idiomas, prática diária e repetição espaçada. } }
