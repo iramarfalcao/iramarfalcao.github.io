@@ -10,16 +10,6 @@ featured:
     text:
       en: See what fills your Mac's disk and review every file before it goes to the Trash. Cleaning and uninstalling, with the control in your hands.
       pt: Veja o que ocupa espaço no Mac e revise cada arquivo antes de movê-lo para a Lixeira. Limpeza e desinstalação, com o controle nas suas mãos.
-  - key: hyperenv
-    name: HyperEnv
-    url: https://hyperenv.falcaosl.com
-    image: /assets/products/hyperenv.png
-    size: [1280, 800]
-    alt: { en: HyperEnv interface, pt: Interface do HyperEnv }
-    kicker: { en: "macOS, Windows and Linux · Pre-release", pt: "macOS, Windows e Linux · Pré-lançamento" }
-    text:
-      en: Environment variables organized by project. Switch profiles and restore the previous values when you need to. Open source, MIT.
-      pt: Variáveis de ambiente organizadas por projeto. Alterne perfis e restaure os valores anteriores quando precisar. Open source, MIT.
 studio:
   - { name: Quick Read, url: "https://quickread.falcaosl.com", kicker: { en: Android / iOS · Internal beta, pt: Android / iOS · Beta interno }, text: { en: Ebook reading, one word at a time., pt: Leitura de ebooks, uma palavra por vez. } }
   - { name: Lira, url: "https://lira.falcaosl.com", kicker: { en: Android / iOS · In development, pt: Android / iOS · Em desenvolvimento }, text: { en: Languages, daily practice and spaced repetition., pt: Idiomas, prática diária e repetição espaçada. } }

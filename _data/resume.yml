@@ -37,13 +37,11 @@ experience:
         - "Native iOS/macOS apps in Swift/SwiftUI, Android in Kotlin/Jetpack Compose and Kotlin Multiplatform, with Rust backends."
         - "Self-hosted infrastructure (Proxmox, ZFS) managed as code with Terraform and Ansible; CI/CD with GitHub Actions and Coolify; PostgreSQL, MongoDB, Redis, MinIO, Appwrite; observability and automated backups."
         - "S-Clean: macOS cleanup app on the Mac App Store, localized into 16 languages."
-        - "HyperEnv: open-source (MIT) environment variable manager for macOS, Windows and Linux."
         - "On-device AI: local LLM inference on Apple Silicon with MLX, on-device speech transcription and an AI language tutor."
       pt:
         - "Apps nativos para iOS e macOS em Swift/SwiftUI, Android em Kotlin/Jetpack Compose e Kotlin Multiplatform, com backends em Rust."
         - "Infraestrutura própria (Proxmox, ZFS) gerenciada como código com Terraform e Ansible; CI/CD com GitHub Actions e Coolify; PostgreSQL, MongoDB, Redis, MinIO e Appwrite; observabilidade e backups automáticos."
         - "S-Clean: app de limpeza para macOS na Mac App Store, traduzido para 16 idiomas."
-        - "HyperEnv: gerenciador open source (MIT) de variáveis de ambiente para macOS, Windows e Linux."
         - "IA no dispositivo: inferência de LLM local em Apple Silicon com MLX, transcrição de voz no aparelho e um tutor de idiomas com IA."
     skills: "Swift · SwiftUI · Kotlin Multiplatform · Rust · Terraform · Ansible · GitHub Actions"
 

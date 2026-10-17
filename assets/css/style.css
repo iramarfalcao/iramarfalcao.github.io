@@ -69,8 +69,10 @@ p { color: var(--ink-soft); }
 
 /* Cartões */
 .card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-/* Dois apps em destaque: duas colunas, para a grade não ficar com a terceira vazia. */
-.card-grid-featured { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+/* Um só app em destaque: uma coluna, para a grade não ficar com colunas vazias. */
+.card-grid-featured { grid-template-columns: minmax(0, 1fr); }
+.card-grid-featured .product-image { height: 230px; }
+.card-grid-featured .product-image img { max-width: 460px; }
 .card { min-width: 0; padding: 28px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--soft); transition: transform .2s, border-color .2s; }
 .card:hover { transform: translateY(-4px); border-color: #b9c4cf; }
 .card p { font-size: .95rem; }
