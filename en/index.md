@@ -9,9 +9,9 @@ description: Iramar Falcão, Senior Software Engineer and founder of Falcao SL. 
 
 <div class="hero">
 <div>
-<p class="eyebrow">Senior Software Engineer · Founder of Falcao SL</p>
 <h1>Solid engineering.<br>Products with purpose.</h1>
 <p class="hero-lede">I'm <strong>Iramar Falcão</strong>, a software engineer in Fortaleza, Brazil. For over 10 years I have built backend systems for banks and large companies. At <a href="https://falcaosl.com">Falcao SL</a>, I ship my own apps for macOS, iOS and Android.</p>
+<p class="eyebrow hero-role">Senior Software Engineer · Founder of Falcao SL</p>
 <div class="hero-actions"><a class="button" href="/en/resume/">View resume</a><a class="button button-secondary" href="/en/projects/">Explore projects</a></div>
 </div>
 <div class="hero-art"><img src="{{ '/assets/brand/falcon-480.png' | relative_url }}" width="360" height="360" alt="Falcon, the Falcao SL mark"></div>

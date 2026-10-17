@@ -8,9 +8,9 @@ description: Iramar Falcão, Senior Software Engineer e fundador da Falcao SL. S
 
 <div class="hero">
 <div>
-<p class="eyebrow">Senior Software Engineer · Fundador da Falcao SL</p>
 <h1>Engenharia sólida.<br>Produtos com propósito.</h1>
 <p class="hero-lede">Sou <strong>Iramar Falcão</strong>, engenheiro de software em Fortaleza. Há mais de 10 anos construo sistemas backend para bancos e grandes empresas. Na <a href="https://falcaosl.com">Falcao SL</a>, publico aplicativos próprios para macOS, iOS e Android.</p>
+<p class="eyebrow hero-role">Senior Software Engineer · Fundador da Falcao SL</p>
 <div class="hero-actions"><a class="button" href="/resume/">Ver currículo</a><a class="button button-secondary" href="/projects/">Explorar os projetos</a></div>
 </div>
 <div class="hero-art"><img src="{{ '/assets/brand/falcon-480.png' | relative_url }}" width="360" height="360" alt="Falcão, marca da Falcao SL"></div>

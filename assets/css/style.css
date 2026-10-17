@@ -50,14 +50,15 @@ p { color: var(--ink-soft); }
 .lang-switch:hover { border-color: var(--blue); color: var(--ink); }
 
 .page { padding: 56px 0 90px; min-height: 62vh; }
-.page > p { max-width: 74ch; }
+.page > p, main > p { max-width: 64ch; }
 .page img { max-width: 100%; height: auto; }
 .eyebrow { font-size: .74rem; letter-spacing: .13em; text-transform: uppercase; font-weight: 700; color: var(--ink-soft); }
 
 /* Hero */
 .hero { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); align-items: center; gap: 40px; padding: 16px 0 0; animation: enter .7s both; }
-.hero h1 { margin-bottom: 18px; }
+.hero h1 { margin-bottom: 18px; font-size: clamp(2.25rem, 4.6vw, 3.6rem); }
 .hero h1::after { content: ""; display: block; width: 120px; height: 6px; background: var(--blue); margin-top: 26px; }
+.hero-role { margin-top: 18px; }
 .hero-lede { font-size: clamp(1.05rem, 2.2vw, 1.25rem); max-width: 52ch; }
 .hero-art { justify-self: center; width: min(100%, 360px); }
 .hero-art img { border-radius: 24px; display: block; }
