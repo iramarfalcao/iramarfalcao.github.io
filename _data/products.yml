@@ -19,7 +19,7 @@ studio:
   - { name: Hortfrut, url: "https://hortfrut.falcaosl.com", kicker: { en: Web · In development, pt: Web · Em desenvolvimento }, text: { en: Produce distribution, from quote to delivery., pt: Da cotação à entrega do hortifrúti. } }
   - { name: MeuPosto, url: "https://meuposto.falcaosl.com", kicker: { en: Android / iOS · In development, pt: Android / iOS · Em desenvolvimento }, text: { en: Fuel prices with community input., pt: Preços de combustível com participação da comunidade. } }
   - { name: Pitaia Med, url: "https://pitaia.falcaosl.com", kicker: { en: Android / iOS · In testing, pt: Android / iOS · Em teste }, text: { en: Spoken patient notes that stay on the phone., pt: "Notas faladas de pacientes, guardadas no celular." } }
-  - { name: MultiDroid, url: "https://multidroid.falcaosl.com", kicker: { en: macOS · Open source, pt: macOS · Código aberto }, text: { en: Several Android phones and a watch on one Mac desk., pt: Vários Androids e um relógio numa mesa só do Mac. } }
+  - { name: MultiDroid, url: "https://multidroid.falcaosl.com", kicker: { en: macOS · Published · Open source, pt: macOS · Publicado · Código aberto }, text: { en: Several Android phones and a watch on one Mac desk., pt: Vários Androids e um relógio numa mesa só do Mac. } }
 infra:
   - { name: Homelab, text: { en: Infrastructure as code with Terraform, Ansible, Docker, Proxmox and Cloudflare. It runs the products' sites and services., pt: Infraestrutura como código com Terraform, Ansible, Docker, Proxmox e Cloudflare. Sustenta os sites e serviços dos produtos. } }
   - { name: MyBooks, text: { en: Project Gutenberg book catalog and API, built in Rust., pt: Catálogo e API de livros do Project Gutenberg, desenvolvido em Rust. } }
