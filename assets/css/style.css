@@ -102,6 +102,10 @@ p { color: var(--ink-soft); }
 .action-subtle { color: var(--ink-soft); background: transparent; border-color: transparent; }
 .action-subtle:hover { background: rgba(0,0,0,0.05); color: var(--ink); border-color: var(--line); }
 
+.card-grid-steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+@media (max-width: 760px) {
+  .card-grid-steps { grid-template-columns: 1fr; }
+}
 
 /* Currículo */
 .resume-head { max-width: 920px; }

@@ -19,6 +19,9 @@ Aplicativos próprios, do conceito à publicação. Conheça os produtos no [por
 
 {% include product-cards.html kind="studio" l="pt" %}
 
+> [!TIP]
+> **Participe dos Testes Abertos**: Vários dos nossos aplicativos já possuem versões preliminares ativas no Apple TestFlight e Google Play. Acesse a página do [Programa de Testadores Beta](/testers/) para começar a testar agora mesmo.
+
 ## Infraestrutura e serviços
 
 {% for p in site.data.products.infra %}- **{% if p.github %}[{{ p.name }}]({{ p.github }}){% else %}{{ p.name }}{% endif %}**: {{ p.text.pt }}

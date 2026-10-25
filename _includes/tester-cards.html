@@ -1,0 +1,35 @@
+{%- assign l = include.l -%}
+{%- assign t = site.data.i18n[l] -%}
+<div class="card-grid">
+{%- for p in site.data.products.studio %}
+{%- if p.testflight or p.google_play or p.test_url %}
+<article class="card studio-card tester-card">
+  <div class="card-header">
+    {%- if p.icon %}
+    <img class="app-icon" src="{{ p.icon | relative_url }}" alt="{{ p.name }} icon" width="44" height="44" loading="lazy">
+    {% endif -%}
+    <div class="card-meta">
+      <p class="eyebrow">{{ p.kicker[l] }}</p>
+      <h3>{{ p.name }}</h3>
+    </div>
+  </div>
+  <p class="card-desc">{{ p.text[l] }}</p>
+  <div class="card-actions tester-actions">
+    {%- if p.testflight %}
+    <a class="action-btn action-beta" href="{{ p.testflight }}" target="_blank" rel="noopener">
+      <span> TestFlight ↗</span>
+    </a>
+    {% endif -%}
+    {%- if p.google_play %}
+    <a class="action-btn action-beta" href="{{ p.google_play }}" target="_blank" rel="noopener">
+      <span>▶ Google Play ↗</span>
+    </a>
+    {% endif -%}
+    {%- if p.url %}
+    <a class="action-btn action-subtle" href="{{ p.url }}" target="_blank" rel="noopener">{{ t.visit_site }} ↗</a>
+    {% endif -%}
+  </div>
+</article>
+{% endif -%}
+{%- endfor %}
+</div>

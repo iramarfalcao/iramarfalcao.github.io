@@ -1,6 +1,6 @@
 en:
   skip: Skip to content
-  nav: { projects: Projects, resume: Resume, posts: Articles }
+  nav: { projects: Projects, testers: Beta Testers, resume: Resume, posts: Articles }
   lang_switch: Português
   lang_switch_label: Versão em português
   built: Built with Jekyll
@@ -11,10 +11,22 @@ en:
   join_beta: Join Beta
   visit_site: Website
   print: Print / Save as PDF
-  home: { path: /en/, projects: /en/projects/, resume: /en/resume/, posts: /en/posts/ }
+  home: { path: /en/, projects: /en/projects/, testers: /en/testers/, resume: /en/resume/, posts: /en/posts/ }
+  testers_title: Public Beta Program
+  testers_sub: Test Falcao SL apps before official release. Available on Apple TestFlight and Google Play.
+  become_tester: Become a Beta Tester
+  how_it_works: How testing works
+  step_apple_title: Apple TestFlight (iOS, macOS, watchOS)
+  step_apple_desc: Install the free TestFlight app on the App Store, then tap the public invitation link for the app you want to try.
+  step_google_title: Google Play Beta (Android, Wear OS)
+  step_google_desc: Open the test link on Google Play Store, accept to become a tester, and download official updates directly.
+  signup_title: Get Early Access Invitations
+  signup_sub: Enter your email to be notified when new closed betas open or major feature updates arrive.
+  submit_signup: Sign Up as Tester
+
 pt:
   skip: Pular para o conteúdo
-  nav: { projects: Projetos, resume: Currículo, posts: Artigos }
+  nav: { projects: Projetos, testers: Testadores Beta, resume: Currículo, posts: Artigos }
   lang_switch: English
   lang_switch_label: English version
   built: Feito com Jekyll
@@ -25,5 +37,17 @@ pt:
   join_beta: Testar Beta
   visit_site: Site oficial
   print: Imprimir / Salvar PDF
-  home: { path: /, projects: /projects/, resume: /resume/, posts: /posts/ }
+  home: { path: /, projects: /projects/, testers: /testers/, resume: /resume/, posts: /posts/ }
+  testers_title: Programa de Testadores Beta
+  testers_sub: Experimente os aplicativos da Falcao SL antes do lançamento público no Apple TestFlight e Google Play.
+  become_tester: Seja um Testador
+  how_it_works: Como funciona a participação
+  step_apple_title: Apple TestFlight (iOS, macOS, watchOS)
+  step_apple_desc: Instale o aplicativo gratuito TestFlight na App Store e clique no link público de convite do aplicativo desejado.
+  step_google_title: Google Play Beta (Android, Wear OS)
+  step_google_desc: Abra o link de teste na Google Play Store, confirme sua participação e receba as versões diretamente pela loja.
+  signup_title: Receba convites antecipados
+  signup_sub: Cadastre seu e-mail para ser convidado para novos testes fechados e receber novidades de novos lançamentos em primeira mão.
+  submit_signup: Quero ser Testador
+
 

@@ -27,6 +27,8 @@ studio:
       en: RSVP ebook reader, one word at a time, from 60 to 800 words per minute. Supports EPUB, PDF, MOBI and TXT on iPhone, Android, Apple Watch and Wear OS.
       pt: Leitor de ebooks uma palavra por vez, de 60 a 800 palavras por minuto. Suporta EPUB, PDF, MOBI e TXT no iPhone, Android, Apple Watch e Wear OS.
     test_url: https://quickread.falcaosl.com/#beta
+    testflight: https://testflight.apple.com/join/f5Yq4Qkx
+    google_play: https://play.google.com/apps/testing/com.falcaosl.quickread
 
   - key: swipeclean
     name: SwipeClean
@@ -38,6 +40,7 @@ studio:
       en: Gesture-based iPhone photo library cleanup, with review before deleting, duplicate and blurred photo detection.
       pt: Organização da biblioteca de fotos do iPhone por gestos, com revisão antes de apagar e detecção de fotos duplicadas e desfocadas.
     test_url: https://swipeclean.falcaosl.com/#beta
+    testflight: https://testflight.apple.com/join/f5Yq4Qkx
 
   - key: multidroid
     name: MultiDroid
@@ -60,6 +63,7 @@ studio:
       en: Run MLX artificial intelligence models directly on your iPad with a local OpenAI and Anthropic compatible server.
       pt: Rode modelos de inteligência artificial em MLX direto no seu iPad com servidor compatível com as APIs da OpenAI e Anthropic.
     test_url: https://pocketrocket.falcaosl.com/#beta
+    testflight: https://testflight.apple.com/join/f5Yq4Qkx
 
   - key: lira
     name: Lira
@@ -71,6 +75,8 @@ studio:
       en: English and French vocabulary and conversation practice for Portuguese speakers, with spaced repetition and on-device models.
       pt: Vocabulário e conversação em inglês e francês para falantes de português, com repetição espaçada e IA direto no celular.
     test_url: https://lira.falcaosl.com/#beta
+    testflight: https://testflight.apple.com/join/f5Yq4Qkx
+    google_play: https://play.google.com/apps/testing/com.falcaosl.lira
 
   - key: meuposto
     name: MeuPosto
@@ -82,6 +88,8 @@ studio:
       en: Collaborative fuel-price app with photo verification from drivers who filled up and community reports.
       pt: Preços de combustível colaborativos com verificação por fotos de motoristas e relatórios da comunidade local.
     test_url: https://meuposto.falcaosl.com/#beta
+    testflight: https://testflight.apple.com/join/f5Yq4Qkx
+    google_play: https://play.google.com/apps/testing/com.falcaosl.meuposto
 
   - key: pitaia
     name: Pitaia Med
@@ -93,6 +101,8 @@ studio:
       en: Spoken patient notes for doctors and clinics, transcribed on the device with suggested follow-up reminders.
       pt: Notas médicas faladas para médicos e clínicas, transcritas no próprio aparelho com lembretes sugeridos de acompanhamento.
     test_url: https://pitaia.falcaosl.com/#beta
+    testflight: https://testflight.apple.com/join/f5Yq4Qkx
+    google_play: https://play.google.com/apps/testing/com.falcaosl.pitaia
 
   - key: matiz
     name: Matiz
@@ -104,6 +114,8 @@ studio:
       en: Live color-blindness simulator on the camera, with Ishihara screening test and color palette accessibility checker.
       pt: Simulador de daltonismo em tempo real pela câmera, teste de triagem Ishihara e analisador de acessibilidade de paletas.
     test_url: https://matiz.falcaosl.com/#beta
+    testflight: https://testflight.apple.com/join/f5Yq4Qkx
+    google_play: https://play.google.com/apps/testing/com.falcaosl.matiz
 
   - key: dictasy
     name: Dictasy
@@ -126,6 +138,7 @@ studio:
       en: Voice notes and audio journal transcribed on-device across 12 languages with colorful neo-brutalist typography.
       pt: Notas por voz e diário em áudio transcritos no dispositivo em 12 idiomas com design neo-brutalista marcante.
     test_url: https://spokennote.falcaosl.com/#beta
+    testflight: https://testflight.apple.com/join/f5Yq4Qkx
 
   - key: spokenbook
     name: SpokenBook
@@ -137,6 +150,7 @@ studio:
       en: Writer workspace connecting books, outlines and mind maps with voice dictation across 12 languages.
       pt: Espaço de trabalho para escritores unindo livros, outlines e mapas mentais com ditado em 12 idiomas.
     test_url: https://spokenbook.falcaosl.com/#beta
+    testflight: https://testflight.apple.com/join/f5Yq4Qkx
 
   - key: infinitywar
     name: Infinity War
