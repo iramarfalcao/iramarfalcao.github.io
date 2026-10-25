@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <title>SpokenBook: uma caneta de bico de pena escrevendo num papiro</title>
+  <g id="bg"><rect width="1024" height="1024" fill="#7B1E2B"/></g>
+  <g id="papyrus">
+    <rect x="222" y="328" width="640" height="480" fill="#1E1A16"/>
+    <rect x="158" y="288" width="104" height="560" rx="52" fill="#1E1A16"/>
+    <rect x="822" y="288" width="104" height="560" rx="52" fill="#1E1A16"/>
+    <rect x="196" y="302" width="640" height="480" fill="#EBD5A0" stroke="#1E1A16" stroke-width="22" stroke-linejoin="round"/>
+    <path d="M 250 362 L 790 362 M 250 722 L 790 722" fill="none" stroke="#C49A55" stroke-width="10" stroke-linecap="round"/>
+    <rect x="132" y="262" width="104" height="560" rx="52" fill="#D9BC7E" stroke="#1E1A16" stroke-width="22"/>
+    <path d="M 164 330 L 164 754" fill="none" stroke="#F3E3BC" stroke-width="16" stroke-linecap="round"/>
+    <rect x="796" y="262" width="104" height="560" rx="52" fill="#D9BC7E" stroke="#1E1A16" stroke-width="22"/>
+    <path d="M 828 330 L 828 754" fill="none" stroke="#F3E3BC" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <g id="ink">
+    <path d="M 286 446 C 330 412 360 478 404 446 C 448 414 478 478 522 446 C 566 414 596 478 640 446 C 684 414 712 470 744 448" fill="none" stroke="#1E1A16" stroke-width="24" stroke-linecap="round"/>
+    <path d="M 286 540 C 330 506 360 572 404 540 C 448 508 478 572 522 540 C 566 508 596 572 640 540 C 684 508 712 564 744 542" fill="none" stroke="#1E1A16" stroke-width="24" stroke-linecap="round"/>
+    <path d="M 286 634 C 330 600 360 666 404 634 C 448 602 478 666 522 634 C 534 626 546 628 556 636" fill="none" stroke="#1E1A16" stroke-width="24" stroke-linecap="round"/>
+  </g>
+  <g id="pen">
+    <g transform="translate(560 640) rotate(-48) translate(-2 37)">
+      <path d="M 0 0 L 132 -50 Q 166 -54 170 -44 L 170 44 Q 166 54 132 50 Z" fill="#1E1A16" stroke="#1E1A16" stroke-width="22" stroke-linejoin="round"/>
+      <rect x="166" y="-56" width="92" height="112" rx="12" fill="#1E1A16" stroke="#1E1A16" stroke-width="22"/>
+      <rect x="252" y="-46" width="330" height="92" rx="46" fill="#1E1A16" stroke="#1E1A16" stroke-width="22"/>
+    </g>
+    <g transform="translate(560 640) rotate(-48)">
+      <rect x="252" y="-46" width="330" height="92" rx="46" fill="#1F3B66" stroke="#1E1A16" stroke-width="22"/>
+      <path d="M 300 -14 L 540 -14" fill="none" stroke="#5B7FB8" stroke-width="14" stroke-linecap="round"/>
+      <rect x="166" y="-56" width="92" height="112" rx="12" fill="#B07A2A" stroke="#1E1A16" stroke-width="22"/>
+      <path d="M 0 0 L 132 -50 Q 166 -54 170 -44 L 170 44 Q 166 54 132 50 Z" fill="#D9A646" stroke="#1E1A16" stroke-width="22" stroke-linejoin="round"/>
+      <path d="M 14 0 L 96 0" fill="none" stroke="#1E1A16" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="108" cy="0" r="14" fill="#1E1A16"/>
+    </g>
+  </g>
+</svg>

@@ -87,6 +87,22 @@ p { color: var(--ink-soft); }
 .product-card:hover .product-image img { transform: translateY(-6px); }
 .card-motion { animation: enter .65s ease-out both; }
 
+.studio-card { display: flex; flex-direction: column; }
+.card-header { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
+.app-icon { width: 44px; height: 44px; border-radius: 10px; object-fit: contain; flex-shrink: 0; box-shadow: 0 4px 10px rgba(0,0,0,0.07); background: #ffffff; padding: 2px; }
+.card-meta { flex: 1; min-width: 0; }
+.card-meta .eyebrow { margin: 0; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--ink-soft); }
+.card-meta h3 { margin: 2px 0 0; font-size: 1.35rem; line-height: 1.25; }
+.card-desc { flex: 1; margin: 0 0 16px; line-height: 1.5; color: var(--ink); }
+.card-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: auto; padding-top: 14px; border-top: 1px solid var(--line); }
+.action-btn { display: inline-flex; align-items: center; padding: 6px 11px; font-size: 12.5px; font-weight: 600; text-decoration: none; border-radius: 6px; background: var(--bg); color: var(--ink); border: 1px solid var(--line); transition: background .15s, color .15s, border-color .15s; }
+.action-btn:hover { background: var(--ink); color: #ffffff; border-color: var(--ink); text-decoration: none; }
+.action-beta { background: #eaf4fd; color: #0070c9; border-color: #bee0fc; }
+.action-beta:hover { background: #0070c9; color: #ffffff; border-color: #0070c9; }
+.action-subtle { color: var(--ink-soft); background: transparent; border-color: transparent; }
+.action-subtle:hover { background: rgba(0,0,0,0.05); color: var(--ink); border-color: var(--line); }
+
+
 /* Currículo */
 .resume-head { max-width: 920px; }
 .resume-subtitle { font-size: 1.2rem; color: var(--ink); max-width: 60ch; }

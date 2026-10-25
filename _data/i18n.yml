@@ -7,6 +7,9 @@ en:
   email: Email
   learn_more: Learn more
   follow: Follow the project
+  repo: GitHub
+  join_beta: Join Beta
+  visit_site: Website
   print: Print / Save as PDF
   home: { path: /en/, projects: /en/projects/, resume: /en/resume/, posts: /en/posts/ }
 pt:
@@ -18,5 +21,9 @@ pt:
   email: E-mail
   learn_more: Conheça o aplicativo
   follow: Acompanhe o projeto
+  repo: GitHub
+  join_beta: Testar Beta
+  visit_site: Site oficial
   print: Imprimir / Salvar PDF
   home: { path: /, projects: /projects/, resume: /resume/, posts: /posts/ }
+

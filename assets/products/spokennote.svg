@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <title>SpokenNote — a voz vira nota (neo-brutalismo colorido)</title>
+  <!-- Fonte única do ícone. A onda de voz (amarela) vira linhas de texto
+       (brancas), com contorno de tinta grosso e sombra dura deslocada.
+       export_icons.py troca a tinta (#15111E) pelo roxo da marca no modo escuro. -->
+  <g id="bg"><rect width="1024" height="1024" fill="#7B5CF5"/></g>
+  <g id="wave">
+    <g fill="#15111E" transform="translate(20 20)">
+      <rect x="128" y="414" width="64" height="176" rx="12"/>
+      <rect x="228" y="334" width="64" height="336" rx="12"/>
+      <rect x="328" y="266" width="64" height="472" rx="12"/>
+      <rect x="428" y="350" width="64" height="304" rx="12"/>
+      <rect x="528" y="426" width="64" height="152" rx="12"/>
+    </g>
+    <g fill="#FFC83D" stroke="#15111E" stroke-width="16" stroke-linejoin="round">
+      <rect x="128" y="414" width="64" height="176" rx="12"/>
+      <rect x="228" y="334" width="64" height="336" rx="12"/>
+      <rect x="328" y="266" width="64" height="472" rx="12"/>
+      <rect x="428" y="350" width="64" height="304" rx="12"/>
+      <rect x="528" y="426" width="64" height="152" rx="12"/>
+    </g>
+  </g>
+  <g id="text">
+    <g fill="#15111E" transform="translate(20 20)">
+      <rect x="656" y="360" width="220" height="60" rx="12"/>
+      <rect x="656" y="472" width="220" height="60" rx="12"/>
+      <rect x="656" y="584" width="140" height="60" rx="12"/>
+    </g>
+    <g fill="#FFFFFF" stroke="#15111E" stroke-width="16" stroke-linejoin="round">
+      <rect x="656" y="360" width="220" height="60" rx="12"/>
+      <rect x="656" y="472" width="220" height="60" rx="12"/>
+      <rect x="656" y="584" width="140" height="60" rx="12"/>
+    </g>
+  </g>
+</svg>

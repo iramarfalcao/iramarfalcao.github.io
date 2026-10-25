@@ -21,6 +21,6 @@ Own apps, from concept to release. See the products on the [Falcao SL portfolio]
 
 ## Infrastructure and services
 
-{% for p in site.data.products.infra %}**{{ p.name }}**: {{ p.text.en }}
-
+{% for p in site.data.products.infra %}- **{% if p.github %}[{{ p.name }}]({{ p.github }}){% else %}{{ p.name }}{% endif %}**: {{ p.text.en }}
 {% endfor %}
+

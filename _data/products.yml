@@ -1,25 +1,180 @@
-# Produtos da Falcao SL. Estados conforme o docs/STATUS.md de cada repositório (2026-10).
+# Produtos e Projetos de Iramar Falcão / Falcao SL
+# Ícones em /assets/products/ e estados sincronizados com os repositórios (2026-10).
+
 featured:
   - key: sclean
     name: S-Clean
     url: https://sclean.falcaosl.com
+    github: https://github.com/iramarfalcao/SClean
     image: /assets/products/sclean.png
+    icon: /assets/products/sclean.webp
     size: [1200, 630]
     alt: { en: S-Clean interface, pt: Interface do S-Clean }
-    kicker: { en: macOS · Utility, pt: macOS · Utilitário }
+    kicker: { en: macOS · Published, pt: macOS · Publicado }
     text:
-      en: See what fills your Mac's disk and review every file before it goes to the Trash. Cleaning and uninstalling, with the control in your hands.
-      pt: Veja o que ocupa espaço no Mac e revise cada arquivo antes de movê-lo para a Lixeira. Limpeza e desinstalação, com o controle nas suas mãos.
+      en: See what fills your Mac's disk and review every file before it goes to the Trash. Native cleaner and uninstaller with 100 rules, permissions guide and zero telemetry.
+      pt: Veja o que ocupa espaço no Mac e revise cada arquivo antes de movê-lo para a Lixeira. Limpeza e desinstalação nativa com 100 regras, guia de permissões e zero telemetria.
+    test_url: https://sclean.falcaosl.com
+
 studio:
-  - { name: Quick Read, url: "https://quickread.falcaosl.com", kicker: { en: Android / iOS · Internal beta, pt: Android / iOS · Beta interno }, text: { en: Ebook reading, one word at a time., pt: Leitura de ebooks, uma palavra por vez. } }
-  - { name: Lira, url: "https://lira.falcaosl.com", kicker: { en: Android / iOS · In development, pt: Android / iOS · Em desenvolvimento }, text: { en: Languages, daily practice and spaced repetition., pt: Idiomas, prática diária e repetição espaçada. } }
-  - { name: PocketRocket, url: "https://pocketrocket.falcaosl.com", kicker: { en: iPadOS · In development, pt: iPadOS · Em desenvolvimento }, text: { en: Artificial intelligence on the iPad itself., pt: Inteligência artificial no próprio iPad. } }
-  - { name: SwipeClean, url: "https://swipeclean.falcaosl.com", kicker: { en: iOS · In App Review, pt: iOS · Em revisão na App Store }, text: { en: A new way to organize your photos., pt: Uma nova forma de organizar suas fotos. } }
-  - { name: Infinity War, url: "https://infinitywar.falcaosl.com", kicker: { en: Android / iOS · In development, pt: Android / iOS · Em desenvolvimento }, text: { en: One tap. One ship. One more try., pt: Um toque. Uma nave. Mais uma tentativa. } }
-  - { name: Hortfrut, url: "https://hortfrut.falcaosl.com", kicker: { en: Web · In development, pt: Web · Em desenvolvimento }, text: { en: Produce distribution, from quote to delivery., pt: Da cotação à entrega do hortifrúti. } }
-  - { name: MeuPosto, url: "https://meuposto.falcaosl.com", kicker: { en: Android / iOS · In development, pt: Android / iOS · Em desenvolvimento }, text: { en: Fuel prices with community input., pt: Preços de combustível com participação da comunidade. } }
-  - { name: Pitaia Med, url: "https://pitaia.falcaosl.com", kicker: { en: Android / iOS · In testing, pt: Android / iOS · Em teste }, text: { en: Spoken patient notes that stay on the phone., pt: "Notas faladas de pacientes, guardadas no celular." } }
-  - { name: MultiDroid, url: "https://multidroid.falcaosl.com", kicker: { en: macOS · Published · Open source, pt: macOS · Publicado · Código aberto }, text: { en: Several Android phones and a watch on one Mac desk., pt: Vários Androids e um relógio numa mesa só do Mac. } }
+  - key: quickread
+    name: Quick Read
+    url: https://quickread.falcaosl.com
+    github: https://github.com/iramarfalcao/Quickread
+    icon: /assets/products/quickread.svg
+    kicker: { en: iOS / Android · Open Beta, pt: iOS / Android · Beta Aberto }
+    text:
+      en: RSVP ebook reader, one word at a time, from 60 to 800 words per minute. Supports EPUB, PDF, MOBI and TXT on iPhone, Android, Apple Watch and Wear OS.
+      pt: Leitor de ebooks uma palavra por vez, de 60 a 800 palavras por minuto. Suporta EPUB, PDF, MOBI e TXT no iPhone, Android, Apple Watch e Wear OS.
+    test_url: https://quickread.falcaosl.com/#beta
+
+  - key: swipeclean
+    name: SwipeClean
+    url: https://swipeclean.falcaosl.com
+    github: https://github.com/iramarfalcao/SwipeClean
+    icon: /assets/products/swipeclean.webp
+    kicker: { en: iOS · In Review / Beta, pt: iOS · Em Revisão / Beta }
+    text:
+      en: Gesture-based iPhone photo library cleanup, with review before deleting, duplicate and blurred photo detection.
+      pt: Organização da biblioteca de fotos do iPhone por gestos, com revisão antes de apagar e detecção de fotos duplicadas e desfocadas.
+    test_url: https://swipeclean.falcaosl.com/#beta
+
+  - key: multidroid
+    name: MultiDroid
+    url: https://multidroid.falcaosl.com
+    github: https://github.com/iramarfalcao/MultiDroid
+    icon: /assets/products/multidroid.webp
+    kicker: { en: macOS · Published · Open Source, pt: macOS · Publicado · Código Aberto }
+    text:
+      en: Several Android phones, tablets, foldables and a watch on one Mac desk, powered by the official Android Emulator.
+      pt: Vários celulares Android, tablets, dobráveis e relógio em uma única mesa do Mac, sobre o Android Emulator oficial.
+    test_url: https://github.com/iramarfalcao/MultiDroid/releases
+
+  - key: pocketrocket
+    name: PocketRocket
+    url: https://pocketrocket.falcaosl.com
+    github: https://github.com/iramarfalcao/PocketRocket
+    icon: /assets/products/pocketrocket.webp
+    kicker: { en: iPadOS · In Development, pt: iPadOS · Em Desenvolvimento }
+    text:
+      en: Run MLX artificial intelligence models directly on your iPad with a local OpenAI and Anthropic compatible server.
+      pt: Rode modelos de inteligência artificial em MLX direto no seu iPad com servidor compatível com as APIs da OpenAI e Anthropic.
+    test_url: https://pocketrocket.falcaosl.com/#beta
+
+  - key: lira
+    name: Lira
+    url: https://lira.falcaosl.com
+    github: https://github.com/iramarfalcao/Lira
+    icon: /assets/products/lira.svg
+    kicker: { en: Android / iOS · In Development, pt: Android / iOS · Em Desenvolvimento }
+    text:
+      en: English and French vocabulary and conversation practice for Portuguese speakers, with spaced repetition and on-device models.
+      pt: Vocabulário e conversação em inglês e francês para falantes de português, com repetição espaçada e IA direto no celular.
+    test_url: https://lira.falcaosl.com/#beta
+
+  - key: meuposto
+    name: MeuPosto
+    url: https://meuposto.falcaosl.com
+    github: https://github.com/iramarfalcao/MeuPosto
+    icon: /assets/products/meuposto.svg
+    kicker: { en: Android / iOS · In Development, pt: Android / iOS · Em Desenvolvimento }
+    text:
+      en: Collaborative fuel-price app with photo verification from drivers who filled up and community reports.
+      pt: Preços de combustível colaborativos com verificação por fotos de motoristas e relatórios da comunidade local.
+    test_url: https://meuposto.falcaosl.com/#beta
+
+  - key: pitaia
+    name: Pitaia Med
+    url: https://pitaia.falcaosl.com
+    github: https://github.com/iramarfalcao/pitaia
+    icon: /assets/products/pitaia.svg
+    kicker: { en: Android / iOS · In Development, pt: Android / iOS · Em Desenvolvimento }
+    text:
+      en: Spoken patient notes for doctors and clinics, transcribed on the device with suggested follow-up reminders.
+      pt: Notas médicas faladas para médicos e clínicas, transcritas no próprio aparelho com lembretes sugeridos de acompanhamento.
+    test_url: https://pitaia.falcaosl.com/#beta
+
+  - key: matiz
+    name: Matiz
+    url: https://matiz.falcaosl.com
+    github: https://github.com/iramarfalcao/Matiz
+    icon: /assets/products/matiz.webp
+    kicker: { en: Android / iOS · In Development, pt: Android / iOS · Em Desenvolvimento }
+    text:
+      en: Live color-blindness simulator on the camera, with Ishihara screening test and color palette accessibility checker.
+      pt: Simulador de daltonismo em tempo real pela câmera, teste de triagem Ishihara e analisador de acessibilidade de paletas.
+    test_url: https://matiz.falcaosl.com/#beta
+
+  - key: dictasy
+    name: Dictasy
+    url: https://dictasy.falcaosl.com
+    github: https://github.com/iramarfalcao/Dictasy
+    icon: /assets/products/dictasy.png
+    kicker: { en: macOS / Win / Linux · Open Source, pt: macOS / Win / Linux · Código Aberto }
+    text:
+      en: System-wide speech-to-text dictation using local Whisper models. Fast, offline and 100% private.
+      pt: Ditado de voz para texto no sistema inteiro usando modelos Whisper locais. Rápido, offline e 100% privado.
+    test_url: https://dictasy.falcaosl.com
+
+  - key: spokennote
+    name: SpokenNote
+    url: https://spokennote.falcaosl.com
+    github: https://github.com/iramarfalcao/SpokenNote
+    icon: /assets/products/spokennote.svg
+    kicker: { en: iOS / iPadOS / macOS · In Development, pt: iOS / iPadOS / macOS · Em Desenvolvimento }
+    text:
+      en: Voice notes and audio journal transcribed on-device across 12 languages with colorful neo-brutalist typography.
+      pt: Notas por voz e diário em áudio transcritos no dispositivo em 12 idiomas com design neo-brutalista marcante.
+    test_url: https://spokennote.falcaosl.com/#beta
+
+  - key: spokenbook
+    name: SpokenBook
+    url: https://spokenbook.falcaosl.com
+    github: https://github.com/iramarfalcao/SpokenBook
+    icon: /assets/products/spokenbook.svg
+    kicker: { en: iOS / iPadOS / macOS · In Development, pt: iOS / iPadOS / macOS · Em Desenvolvimento }
+    text:
+      en: Writer workspace connecting books, outlines and mind maps with voice dictation across 12 languages.
+      pt: Espaço de trabalho para escritores unindo livros, outlines e mapas mentais com ditado em 12 idiomas.
+    test_url: https://spokenbook.falcaosl.com/#beta
+
+  - key: infinitywar
+    name: Infinity War
+    url: https://infinitywar.falcaosl.com
+    github: https://github.com/iramarfalcao/infinity_war
+    icon: /assets/products/infinitywar.png
+    kicker: { en: Android / iOS / Web · In Development, pt: Android / iOS / Web · Em Desenvolvimento }
+    text:
+      en: Space arcade shooter with Three.js graphics and responsive mobile-first touch control mechanics.
+      pt: Jogo arcade espacial com gráficos Three.js e controles ágeis desenvolvidos para telas sensíveis ao toque.
+    test_url: https://infinitywar.falcaosl.com/#beta
+
+  - key: hortfrut
+    name: Hortfrut
+    url: https://hortfrut.falcaosl.com
+    github: https://github.com/iramarfalcao/hortfrut
+    icon: /assets/products/hortfrut.svg
+    kicker: { en: Web · In Development, pt: Web · Em Desenvolvimento }
+    text:
+      en: Wholesale produce management system, from market pricing to warehouse inventory and customer dispatch.
+      pt: Gestão de distribuição para atacadistas de hortifrúti, da cotação no mercado CEASA até o despacho e entrega.
+    test_url: https://hortfrut.falcaosl.com
+
 infra:
-  - { name: Homelab, text: { en: Infrastructure as code with Terraform, Ansible, Docker, Proxmox and Cloudflare. It runs the products' sites and services., pt: Infraestrutura como código com Terraform, Ansible, Docker, Proxmox e Cloudflare. Sustenta os sites e serviços dos produtos. } }
-  - { name: MyBooks, text: { en: Project Gutenberg book catalog and API, built in Rust., pt: Catálogo e API de livros do Project Gutenberg, desenvolvido em Rust. } }
+  - name: Homelab
+    github: https://github.com/iramarfalcao/homelab
+    text:
+      en: Infrastructure as code with Terraform, Ansible, Docker, Proxmox and Cloudflare. Runs studio products, sites and microservices.
+      pt: Infraestrutura como código com Terraform, Ansible, Docker, Proxmox e Cloudflare. Sustenta os sites, serviços e deploys dos produtos.
+
+  - name: MyBooks
+    github: https://github.com/iramarfalcao/MyBooks
+    text:
+      en: Project Gutenberg catalog indexer, search engine and high-performance REST API built in Rust.
+      pt: Indexador de catálogo do Project Gutenberg, motor de busca e API de alto desempenho desenvolvidos em Rust.
+
+  - name: PocketRocket Metal
+    github: https://github.com/iramarfalcao/PocketRocketMetal
+    text:
+      en: Metal-accelerated inference engine for Apple Silicon devices, evaluating speculative decoding and memory bandwidth.
+      pt: Motor de inferência acelerado em Metal para dispositivos Apple Silicon, avaliando speculative decoding e largura de banda.

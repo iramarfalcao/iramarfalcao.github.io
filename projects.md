@@ -21,6 +21,6 @@ Aplicativos próprios, do conceito à publicação. Conheça os produtos no [por
 
 ## Infraestrutura e serviços
 
-{% for p in site.data.products.infra %}**{{ p.name }}**: {{ p.text.pt }}
-
+{% for p in site.data.products.infra %}- **{% if p.github %}[{{ p.name }}]({{ p.github }}){% else %}{{ p.name }}{% endif %}**: {{ p.text.pt }}
 {% endfor %}
+
