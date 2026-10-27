@@ -1,29 +1,28 @@
 ---
 layout: default
-lang: pt-BR
-alt: /en/projects/
-title: Projetos
-description: Aplicativos e projetos de Iramar Falcão, fundador da Falcao SL.
+lang: en
+alt: /pt/projects/
+title: Projects
+description: Apps and projects by Iramar Falcão, founder of Falcao SL.
 permalink: /projects/
 ---
 
-# Projetos
+# Projects
 
-Aplicativos próprios, do conceito à publicação. Conheça os produtos no [portfólio da Falcao SL](https://falcaosl.com).
+Own apps, from concept to release. See the products on the [Falcao SL portfolio](https://falcaosl.com).
 
-## Em destaque
+## Featured
 
-{% include product-cards.html kind="featured" l="pt" %}
+{% include product-cards.html kind="featured" l="en" %}
 
-## Em desenvolvimento
+## In development
 
-{% include product-cards.html kind="studio" l="pt" %}
+{% include product-cards.html kind="studio" l="en" %}
 
 > [!TIP]
-> **Participe dos Testes Abertos**: Vários dos nossos aplicativos já possuem versões preliminares ativas no Apple TestFlight e Google Play. Acesse a página do [Programa de Testadores Beta](/testers/) para começar a testar agora mesmo.
+> **Join Open Testing**: Several of our apps already have active pre-release builds on Apple TestFlight and Google Play. Check out our [Public Beta Program](/testers/) to start testing today.
 
-## Infraestrutura e serviços
+## Infrastructure and services
 
-{% for p in site.data.products.infra %}- **{% if p.github %}[{{ p.name }}]({{ p.github }}){% else %}{{ p.name }}{% endif %}**: {{ p.text.pt }}
+{% for p in site.data.products.infra %}- **{% if p.github %}[{{ p.name }}]({{ p.github }}){% else %}{{ p.name }}{% endif %}**: {{ p.text.en }}
 {% endfor %}
-

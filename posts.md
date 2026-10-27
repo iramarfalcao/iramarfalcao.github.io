@@ -1,24 +1,24 @@
 ---
 layout: default
-lang: pt-BR
-alt: /en/posts/
-title: Artigos
-description: Artigos e notas de Iramar Falcão sobre software, projetos e ferramentas.
+lang: en
+alt: /pt/posts/
+title: Articles
+description: Articles and notes by Iramar Falcão on software, projects and tools.
 permalink: /posts/
 ---
 
-# Artigos
+# Articles
 
-Notas sobre software, projetos, ferramentas e aprendizados do trabalho.
+Notes on software, projects, tools and lessons from the work.
 
 <div class="post-list">
   {% for post in site.posts %}
     <article>
-      <p class="meta">{{ post.date | date: "%d/%m/%Y" }}{% if post.lang == "en" %} · English{% endif %}</p>
+      <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
       <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
     </article>
   {% else %}
-    <p>Ainda não há artigos.</p>
+    <p>No articles yet.</p>
   {% endfor %}
 </div>

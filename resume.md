@@ -1,10 +1,10 @@
 ---
 layout: default
-lang: pt-BR
-alt: /en/resume/
-title: Currículo
-description: Currículo de Iramar Falcão, Senior Software Engineer. Backend, plataforma e IA aplicada em bancos e grandes empresas, e fundador da Falcao SL.
+lang: en
+alt: /pt/resume/
+title: Resume
+description: Resume of Iramar Falcão, Senior Software Engineer. Backend, platform and applied AI for banks and large companies, and founder of Falcao SL.
 permalink: /resume/
 ---
 
-{% include resume.html l="pt" %}
+{% include resume.html l="en" %}

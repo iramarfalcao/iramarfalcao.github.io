@@ -6,7 +6,7 @@
 
 web
 
-Jekyll on GitHub Pages; Brazilian Portuguese at the root and English under `/en/`, with hreflang.
+Jekyll on GitHub Pages; English at the root and Portuguese under `/pt/`, with `/en/` redirecting to the English pages, and hreflang.
 
 ## Users
 Recruiters, clients and people arriving through the products.

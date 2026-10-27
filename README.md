@@ -8,7 +8,7 @@ Personal website of Iramar Falcao: portfolio, resume and posts, built with Jekyl
 
 ## O que é
 
-The source of the personal site of Iramar Falcao, software engineer and founder of Falcao SL. It is a small Jekyll site with one layout, one stylesheet and hand-written pages, in **Brazilian Portuguese and English**. Portuguese pages live at the root (`/`, `/resume/`, `/projects/`, `/posts/`) and English pages under `/en/`. Each page points to its twin with `alt:` in the front matter, which feeds the PT/EN switch and the `hreflang` tags.
+The source of the personal site of Iramar Falcao, software engineer and founder of Falcao SL. It is a small Jekyll site with one layout, one stylesheet and hand-written pages, in **English and Brazilian Portuguese**. English pages live at the root (`/`, `/resume/`, `/projects/`, `/posts/`, `/testers/`) and Portuguese under `/pt/`, with `/en/` redirecting to the English pages. Each page points to its twin with `alt:` in the front matter, which feeds the PT/EN switch and the `hreflang` tags.
 
 ## O que faz
 

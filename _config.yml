@@ -1,8 +1,8 @@
 title: Iramar Falcão
-description: Iramar Falcão, Senior Software Engineer e fundador da Falcao SL. Backend, plataforma e IA aplicada; aplicativos próprios. / Backend, platform and applied AI; own apps.
+description: Iramar Falcão, Senior Software Engineer and founder of Falcao SL. Backend, platform and applied AI; own apps. / Iramar Falcão, Senior Software Engineer e fundador da Falcao SL. Backend, plataforma e IA aplicada; aplicativos próprios.
 url: "https://iramarfalcao.github.io"
 baseurl: ""
-lang: pt-BR
+lang: en
 permalink: /posts/:title/
 
 author:

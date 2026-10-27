@@ -11,7 +11,7 @@ en:
   join_beta: Join Beta
   visit_site: Website
   print: Print / Save as PDF
-  home: { path: /en/, projects: /en/projects/, testers: /en/testers/, resume: /en/resume/, posts: /en/posts/ }
+  home: { path: /, projects: /projects/, testers: /testers/, resume: /resume/, posts: /posts/ }
   testers_title: Public Beta Program
   testers_sub: Test Falcao SL apps before official release. Available on Apple TestFlight and Google Play.
   become_tester: Become a Beta Tester
@@ -37,7 +37,7 @@ pt:
   join_beta: Testar Beta
   visit_site: Site oficial
   print: Imprimir / Salvar PDF
-  home: { path: /, projects: /projects/, testers: /testers/, resume: /resume/, posts: /posts/ }
+  home: { path: /pt/, projects: /pt/projects/, testers: /pt/testers/, resume: /pt/resume/, posts: /pt/posts/ }
   testers_title: Programa de Testadores Beta
   testers_sub: Experimente os aplicativos da Falcao SL antes do lançamento público no Apple TestFlight e Google Play.
   become_tester: Seja um Testador
