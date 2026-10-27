@@ -152,17 +152,6 @@ studio:
     test_url: https://spokenbook.falcaosl.com/#beta
     testflight: https://testflight.apple.com/join/f5Yq4Qkx
 
-  - key: infinitywar
-    name: Infinity War
-    url: https://infinitywar.falcaosl.com
-    github: https://github.com/iramarfalcao/infinity_war
-    icon: /assets/products/infinitywar.png
-    kicker: { en: Android / iOS / Web · In Development, pt: Android / iOS / Web · Em Desenvolvimento }
-    text:
-      en: Space arcade shooter with Three.js graphics and responsive mobile-first touch control mechanics.
-      pt: Jogo arcade espacial com gráficos Three.js e controles ágeis desenvolvidos para telas sensíveis ao toque.
-    test_url: https://infinitywar.falcaosl.com/#beta
-
   - key: hortfrut
     name: Hortfrut
     url: https://hortfrut.falcaosl.com

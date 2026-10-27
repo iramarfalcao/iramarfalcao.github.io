@@ -31,7 +31,6 @@ APP_REPO_MAP = {
     "dictasy": "Dictasy",
     "spokennote": "SpokenNote",
     "spokenbook": "SpokenBook",
-    "infinitywar": "infinity_war",
     "multidroid": "MultiDroid",
 }
 
