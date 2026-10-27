@@ -94,7 +94,7 @@ studio:
   - key: pitaia
     name: Pitaia Med
     url: https://pitaia.falcaosl.com
-    github: https://github.com/iramarfalcao/pitaia
+    github: https://github.com/iramarfalcao/Pitaia
     icon: /assets/products/pitaia.svg
     kicker: { en: Android / iOS · In Development, pt: Android / iOS · Em Desenvolvimento }
     text:
@@ -155,7 +155,7 @@ studio:
   - key: hortfrut
     name: Hortfrut
     url: https://hortfrut.falcaosl.com
-    github: https://github.com/iramarfalcao/hortfrut
+    github: https://github.com/iramarfalcao/Hortfrut
     icon: /assets/products/hortfrut.svg
     kicker: { en: Web · In Development, pt: Web · Em Desenvolvimento }
     text:
@@ -165,7 +165,7 @@ studio:
 
 infra:
   - name: Homelab
-    github: https://github.com/iramarfalcao/homelab
+    github: https://github.com/iramarfalcao/Homelab
     text:
       en: Infrastructure as code with Terraform, Ansible, Docker, Proxmox and Cloudflare. Runs studio products, sites and microservices.
       pt: Infraestrutura como código com Terraform, Ansible, Docker, Proxmox e Cloudflare. Sustenta os sites, serviços e deploys dos produtos.
