@@ -35,7 +35,7 @@ bundle exec jekyll serve
 
 The site will be available at `http://localhost:4000`.
 
-To regenerate the icons and the social preview (macOS, needs Google Chrome and the `Falcao-SL` repository next to this one):
+To regenerate the icons and the social preview (macOS, needs Google Chrome and the `FalcaoSL` repository next to this one):
 
 ```bash
 zsh scripts/export-brand.sh

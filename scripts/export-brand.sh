@@ -1,10 +1,10 @@
 #!/bin/zsh
 # Gera os ícones e a prévia social do site a partir da marca Falcao SL.
-# Fonte: ../Falcao-SL/assets/brand (rode antes o export-brand.sh de lá).
+# Fonte: ../FalcaoSL/assets/brand (rode antes o export-brand.sh de lá).
 # Uso, na raiz do repositório: zsh scripts/export-brand.sh
 set -eu
 cd "${0:A:h}/.."
-BRAND="${BRAND:-$PWD/../Falcao-SL/assets/brand}"
+BRAND="${BRAND:-$PWD/../FalcaoSL/assets/brand}"
 CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 OUT=assets/brand
 TMP=$(mktemp -d)
