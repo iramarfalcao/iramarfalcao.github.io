@@ -58,10 +58,10 @@ studio:
     url: https://pocketrocket.falcaosl.com
     github: https://github.com/iramarfalcao/PocketRocket
     icon: /assets/products/pocketrocket.webp
-    kicker: { en: iPadOS · In Development, pt: iPadOS · Em Desenvolvimento }
+    kicker: { en: iOS / iPadOS / macOS / Android · In Development, pt: iOS / iPadOS / macOS / Android · Em Desenvolvimento }
     text:
-      en: Run MLX artificial intelligence models directly on your iPad with a local OpenAI and Anthropic compatible server.
-      pt: Rode modelos de inteligência artificial em MLX direto no seu iPad com servidor compatível com as APIs da OpenAI e Anthropic.
+      en: Run local models on iPhone, iPad, Mac and Android. The Mac engine plan lives in the same repository.
+      pt: Rode modelos locais no iPhone, no iPad, no Mac e no Android. O plano do motor para Mac vive no mesmo repositório.
     test_url: https://pocketrocket.falcaosl.com/#beta
     testflight: https://testflight.apple.com/join/f5Yq4Qkx
 
@@ -175,9 +175,3 @@ infra:
     text:
       en: Project Gutenberg catalog indexer, search engine and high-performance REST API built in Rust.
       pt: Indexador de catálogo do Project Gutenberg, motor de busca e API de alto desempenho desenvolvidos em Rust.
-
-  - name: PocketRocket Metal
-    github: https://github.com/iramarfalcao/PocketRocketMetal
-    text:
-      en: Metal-accelerated inference engine for Apple Silicon devices, evaluating speculative decoding and memory bandwidth.
-      pt: Motor de inferência acelerado em Metal para dispositivos Apple Silicon, avaliando speculative decoding e largura de banda.
