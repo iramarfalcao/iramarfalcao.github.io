@@ -5,7 +5,7 @@ featured:
   - key: sclean
     name: S-Clean
     url: https://sclean.falcaosl.com
-    github: https://github.com/iramarfalcao/SClean
+    github: https://github.com/Falcao-SL/SClean
     image: /assets/products/sclean.png
     icon: /assets/products/sclean.webp
     size: [1200, 630]
@@ -20,7 +20,7 @@ studio:
   - key: quickread
     name: Quick Read
     url: https://quickread.falcaosl.com
-    github: https://github.com/iramarfalcao/Quickread
+    github: https://github.com/Falcao-SL/Quickread
     icon: /assets/products/quickread.svg
     kicker: { en: iOS / Android · Open Beta, pt: iOS / Android · Beta Aberto }
     text:
@@ -33,7 +33,7 @@ studio:
   - key: swipeclean
     name: SwipeClean
     url: https://swipeclean.falcaosl.com
-    github: https://github.com/iramarfalcao/SwipeClean
+    github: https://github.com/Falcao-SL/SwipeClean
     icon: /assets/products/swipeclean.webp
     kicker: { en: iOS · In Review / Beta, pt: iOS · Em Revisão / Beta }
     text:
@@ -45,18 +45,18 @@ studio:
   - key: multidroid
     name: MultiDroid
     url: https://multidroid.falcaosl.com
-    github: https://github.com/iramarfalcao/MultiDroid
+    github: https://github.com/Falcao-SL/MultiDroid
     icon: /assets/products/multidroid.webp
     kicker: { en: macOS · Published · Open Source, pt: macOS · Publicado · Código Aberto }
     text:
       en: Several Android phones, tablets, foldables and a watch on one Mac desk, powered by the official Android Emulator.
       pt: Vários celulares Android, tablets, dobráveis e relógio em uma única mesa do Mac, sobre o Android Emulator oficial.
-    test_url: https://github.com/iramarfalcao/MultiDroid/releases
+    test_url: https://github.com/Falcao-SL/MultiDroid/releases
 
   - key: pocketrocket
     name: PocketRocket
     url: https://pocketrocket.falcaosl.com
-    github: https://github.com/iramarfalcao/PocketRocket
+    github: https://github.com/Falcao-SL/PocketRocket
     icon: /assets/products/pocketrocket.webp
     kicker: { en: iOS / iPadOS / macOS / Android · In Development, pt: iOS / iPadOS / macOS / Android · Em Desenvolvimento }
     text:
@@ -68,7 +68,7 @@ studio:
   - key: lira
     name: Lira
     url: https://lira.falcaosl.com
-    github: https://github.com/iramarfalcao/Lira
+    github: https://github.com/Falcao-SL/Lira
     icon: /assets/products/lira.svg
     kicker: { en: Android / iOS · In Development, pt: Android / iOS · Em Desenvolvimento }
     text:
@@ -81,7 +81,7 @@ studio:
   - key: meuposto
     name: MeuPosto
     url: https://meuposto.falcaosl.com
-    github: https://github.com/iramarfalcao/MeuPosto
+    github: https://github.com/Falcao-SL/MeuPosto
     icon: /assets/products/meuposto.svg
     kicker: { en: Android / iOS · In Development, pt: Android / iOS · Em Desenvolvimento }
     text:
@@ -94,7 +94,7 @@ studio:
   - key: pitaia
     name: Pitaia Med
     url: https://pitaia.falcaosl.com
-    github: https://github.com/iramarfalcao/Pitaia
+    github: https://github.com/Falcao-SL/Pitaia
     icon: /assets/products/pitaia.svg
     kicker: { en: Android / iOS · In Development, pt: Android / iOS · Em Desenvolvimento }
     text:
@@ -107,7 +107,7 @@ studio:
   - key: matiz
     name: Matiz
     url: https://matiz.falcaosl.com
-    github: https://github.com/iramarfalcao/Matiz
+    github: https://github.com/Falcao-SL/Matiz
     icon: /assets/products/matiz.webp
     kicker: { en: Android / iOS · In Development, pt: Android / iOS · Em Desenvolvimento }
     text:
@@ -120,7 +120,7 @@ studio:
   - key: dictasy
     name: Dictasy
     url: https://dictasy.falcaosl.com
-    github: https://github.com/iramarfalcao/Dictasy
+    github: https://github.com/Falcao-SL/Dictasy
     icon: /assets/products/dictasy.png
     kicker: { en: macOS / Win / Linux · Open Source, pt: macOS / Win / Linux · Código Aberto }
     text:
@@ -131,7 +131,7 @@ studio:
   - key: spokennote
     name: SpokenNote
     url: https://spokennote.falcaosl.com
-    github: https://github.com/iramarfalcao/SpokenNote
+    github: https://github.com/Falcao-SL/SpokenNote
     icon: /assets/products/spokennote.svg
     kicker: { en: iOS / iPadOS / macOS · In Development, pt: iOS / iPadOS / macOS · Em Desenvolvimento }
     text:
@@ -143,7 +143,7 @@ studio:
   - key: spokenbook
     name: SpokenBook
     url: https://spokenbook.falcaosl.com
-    github: https://github.com/iramarfalcao/SpokenBook
+    github: https://github.com/Falcao-SL/SpokenBook
     icon: /assets/products/spokenbook.svg
     kicker: { en: iOS / iPadOS / macOS · In Development, pt: iOS / iPadOS / macOS · Em Desenvolvimento }
     text:
@@ -155,7 +155,7 @@ studio:
   - key: hortfrut
     name: Hortfrut
     url: https://hortfrut.falcaosl.com
-    github: https://github.com/iramarfalcao/Hortfrut
+    github: https://github.com/Falcao-SL/Hortfrut
     icon: /assets/products/hortfrut.svg
     kicker: { en: Web · In Development, pt: Web · Em Desenvolvimento }
     text:
