@@ -169,9 +169,3 @@ infra:
     text:
       en: Infrastructure as code with Terraform, Ansible, Docker, Proxmox and Cloudflare. Runs studio products, sites and microservices.
       pt: Infraestrutura como código com Terraform, Ansible, Docker, Proxmox e Cloudflare. Sustenta os sites, serviços e deploys dos produtos.
-
-  - name: MyBooks
-    github: https://github.com/iramarfalcao/MyBooks
-    text:
-      en: Project Gutenberg catalog indexer, search engine and high-performance REST API built in Rust.
-      pt: Indexador de catálogo do Project Gutenberg, motor de busca e API de alto desempenho desenvolvidos em Rust.
