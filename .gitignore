@@ -4,3 +4,8 @@ _site/
 .bundle/
 vendor/
 .DS_Store
+
+# Lixo local e artefatos gerados
+*.profraw
+*.profdata
+xcuserdata/
