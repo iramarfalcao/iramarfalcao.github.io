@@ -94,7 +94,7 @@ studio:
   - key: pitaia
     name: Pitaia Med
     url: https://pitaia.falcaosl.com
-    github: https://github.com/Falcao-SL/Pitaia
+    github: https://github.com/Falcao-SL/Pitaya
     icon: /assets/products/pitaia.svg
     kicker: { en: Android / iOS · In Development, pt: Android / iOS · Em Desenvolvimento }
     text:
