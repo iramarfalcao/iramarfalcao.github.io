@@ -12,10 +12,10 @@ Jekyll on GitHub Pages; English at the root and Portuguese under `/pt/`, with `/
 Recruiters, clients and people arriving through the products.
 
 ## Product Purpose
-Who Iramar Falcão is: résumé (`_data/resume.yml`, aligned with LinkedIn), projects and contact.
+Who Iramar Falcão is: résumé (`_data/resume.yml`, aligned with the November 2026 CV), projects and contact.
 
 ## Positioning
-More than ten years of backend for banks and large companies (BR Partners, Itaú, Grupo Boticário, Ministério da Justiça), plus his own published apps.
+More than ten years of backend for banks and large companies (BR Partners, Itaú, BTG Pactual, AB InBev, Grupo Boticário, Ministério da Justiça), plus his own published apps.
 
 ## Capabilities and Constraints
 - Printable résumé, feed, sitemap, llms.txt. One post so far.

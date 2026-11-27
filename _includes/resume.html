@@ -5,7 +5,9 @@
 <p class="eyebrow">{{ r.location[l] }}</p>
 <h1>{{ r.name }}</h1>
 <p class="resume-subtitle">{{ r.headline[l] }}</p>
-<p class="resume-links"><a href="mailto:dev@falcaosl.com">dev@falcaosl.com</a> · <a href="https://www.linkedin.com/in/iramarfalcao/" rel="me">LinkedIn</a> · <a href="https://github.com/iramarfalcao" rel="me">GitHub</a> · <a href="https://falcaosl.com" rel="me">falcaosl.com</a></p>
+{%- if r.target_roles %}<p class="resume-targets">{{ r.target_roles[l] }}</p>{% endif %}
+{%- if r.availability %}<p class="resume-availability">{{ r.availability[l] }}</p>{% endif %}
+<p class="resume-links"><a href="mailto:{{ r.email }}">{{ r.email }}</a> · <a href="mailto:{{ r.site_email }}">{{ r.site_email }}</a> · <a href="tel:{{ r.phone_tel }}">{{ r.phone_display }}</a> · <a href="https://www.linkedin.com/in/iramarfalcao/" rel="me">LinkedIn</a> · <a href="https://github.com/iramarfalcao" rel="me">GitHub</a> · <a href="https://falcaosl.com" rel="me">falcaosl.com</a></p>
 <button class="button print-button" type="button" onclick="window.print()">{{ t.print }}</button>
 </header>
 
@@ -25,11 +27,27 @@
 <p class="eyebrow">{{ e.period[l] }}<br><span class="place">{{ e.place[l] }}</span></p>
 <div>
 <h3>{% if e.url %}<a href="{{ e.url }}">{{ company }}</a>{% else %}{{ company }}{% endif %}{% if client %} <span class="client">· {{ client }}</span>{% endif %}</h3>
-<p class="role">{{ e.role[l] }} <span class="type">· {{ e.type[l] }}</span></p>
+<p class="role">{{ e.role[l] }}{% if e.type %} <span class="type">· {{ e.type[l] }}</span>{% endif %}</p>
 {%- if e.summary %}<p>{{ e.summary[l] }}</p>{% endif %}
+{%- if e.bullets %}
 <ul class="bullets">
 {%- for b in e.bullets[l] %}<li>{{ b }}</li>{%- endfor %}
 </ul>
+{%- endif %}
+{%- if e.engagements %}
+<div class="engagements">
+{%- for g in e.engagements %}
+<article class="engagement">
+<p class="eyebrow">{{ g.period[l] }}</p>
+<h4>{{ g.role[l] }} — {{ g.company }}{% if g.via %} <span class="client">({{ g.via[l] }})</span>{% endif %}</h4>
+<ul class="bullets">
+{%- for b in g.bullets[l] %}<li>{{ b }}</li>{%- endfor %}
+</ul>
+{%- if g.skills %}<p class="stack">{{ g.skills }}</p>{% endif %}
+</article>
+{%- endfor %}
+</div>
+{%- endif %}
 {%- if e.skills %}<p class="stack">{{ e.skills }}</p>{% endif %}
 </div>
 </article>

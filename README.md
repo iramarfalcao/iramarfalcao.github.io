@@ -18,7 +18,7 @@ It presents Iramar's work to recruiters, clients and anyone who lands on the Fal
 
 - **Home** (`index.md`, `en/index.md`): hero with the Falcao SL falcon, short bio and a card for S-Clean.
 - **Projects** (`projects.md`, `en/projects.md`): featured apps, apps in development (Quick Read, Lira, PocketRocket, SwipeClean, Infinity War, Hortfrut, MeuPosto) and infrastructure/services (Homelab), each linking to its own site.
-- **Resume** (`resume.md`, `en/resume.md`): about, experience, skills, education and languages, aligned with the LinkedIn profile, plus a print / save-as-PDF button. The content lives once in `_data/resume.yml` (fields `en` and `pt`) and is rendered by `_includes/resume.html`. Products and their status live in `_data/products.yml`; interface strings in `_data/i18n.yml`.
+- **Resume** (`resume.md`, `en/resume.md`): about, experience, skills, education and languages, aligned with the November 2026 CV (including the Contract Projects block for AB InBev / BEES and BTG Pactual), plus a print / save-as-PDF button. The content lives once in `_data/resume.yml` (fields `en` and `pt`) and is rendered by `_includes/resume.html`. Products and their status live in `_data/products.yml`; interface strings in `_data/i18n.yml`.
 - **Posts** (`posts.md`, `/posts/`): post list generated from `_posts/`. There is one post so far, "Welcome".
 - **Feed and discovery files**: `feed.xml`, `sitemap.xml`, `robots.txt` and `llms.txt` (a plain-text description of the site for language models).
 - **Brand assets**: the Falcao SL palette (graphite `#262A2F`, blue `#0096EA`), favicons, hero falcon, footer signature and social preview in `assets/brand/`, regenerated from the Falcao SL brand by `scripts/export-brand.sh`.

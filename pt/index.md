@@ -19,7 +19,7 @@ description: Iramar Falcão, Senior Software Engineer e fundador da Falcao SL. S
 
 ## Experiência que conecta arquitetura e produto
 
-Uma plataforma de investimentos para o BR Partners, um produto de dados criado do zero para o Itaú, um sistema de gestão de entregas para o Grupo Boticário e uma plataforma de dados de segurança pública com bilhões de registros para o Ministério da Justiça. Java, Kotlin, Kafka e AWS são a base. Hoje também coloco a IA para trabalhar dentro do processo de engenharia: um sistema agêntico com RAG que planeja tarefas, escreve código e revisa pull requests no CI.
+Uma plataforma de investimentos para o BR Partners, um produto de dados criado do zero para o Itaú, a plataforma de trading do BTG Pactual, pipelines de dados no BEES da AB InBev, um sistema de gestão de entregas para o Grupo Boticário e uma plataforma de dados de segurança pública com bilhões de registros para o Ministério da Justiça. Java, Kotlin, Kafka e AWS são a base. Hoje também coloco a IA para trabalhar dentro do processo de engenharia: um sistema agêntico com RAG que planeja tarefas, escreve código e revisa pull requests no CI.
 
 ## Aplicativos da Falcao SL
 

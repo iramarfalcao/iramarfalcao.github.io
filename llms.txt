@@ -4,20 +4,21 @@
 
 ## English
 - [Home](https://iramarfalcao.github.io/en/): who he is and the Falcao SL apps.
-- [Resume](https://iramarfalcao.github.io/en/resume/): experience, skills, education and languages, aligned with his LinkedIn profile.
+- [Resume](https://iramarfalcao.github.io/en/resume/): experience, skills, education and languages, aligned with his CV (November 2026), including contract work for AB InBev / BEES and BTG Pactual.
 - [Projects](https://iramarfalcao.github.io/en/projects/): shipped apps, apps in development and infrastructure.
 - [Articles](https://iramarfalcao.github.io/en/posts/): notes on software and tools.
 
 ## Português (Brasil)
 - [Início](https://iramarfalcao.github.io/): quem é e os aplicativos da Falcao SL.
-- [Currículo](https://iramarfalcao.github.io/resume/): experiência, competências, formação e idiomas, alinhados ao LinkedIn.
+- [Currículo](https://iramarfalcao.github.io/resume/): experiência, competências, formação e idiomas, alinhados ao CV (novembro de 2026), incluindo os contratos na AB InBev / BEES e no BTG Pactual.
 - [Projetos](https://iramarfalcao.github.io/projects/): aplicativos publicados, em desenvolvimento e infraestrutura.
 - [Artigos](https://iramarfalcao.github.io/posts/): notas sobre software e ferramentas.
 
 ## Identity
 - Name: Iramar Falcão (Francisco Iramar Falcão Junior)
 - Role: Senior Software Engineer (backend, platform, applied AI) and founder of Falcao SL
-- Location: Fortaleza, Ceará, Brazil
+- Location: Fortaleza, Ceará, Brazil (UTC-3). Open to relocation to the US.
+- Languages: Portuguese (native), English (professional working proficiency)
 - GitHub: https://github.com/iramarfalcao
 - LinkedIn: https://www.linkedin.com/in/iramarfalcao/
 - Studio: https://falcaosl.com
